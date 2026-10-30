@@ -136,6 +136,14 @@ def main():
     events = parse(html)
     if not events:
         raise RuntimeError("Aucun événement détecté : ancien calendrier conservé")
+    # Merge with previously discovered club and adult events.
+    if OUT.exists():
+        previous = json.loads(OUT.read_text(encoding="utf-8"))
+        merged = {e["id"]: e for e in previous if e.get("date", "") >= date.today().isoformat()}
+        for event in events:
+            existing = merged.get(event["id"], {})
+            merged[event["id"]] = {**event, **{k: v for k, v in existing.items() if v is not None and v != ""}}
+        events = sorted(merged.values(), key=lambda e: e["date"])
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(events, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"{len(events)} annonces juniors collectées")
