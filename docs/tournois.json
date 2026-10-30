@@ -598,12 +598,18 @@
     "url": "https://echecs-payerne.ch/grand-prix-de-payerne-2026/",
     "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "source": "https://echecs-payerne.ch/grand-prix-de-payerne-2026/",
-    "status": "Site organisateur identifié ; horaires, tarif, lieu et délai à vérifier",
+    "status": "Adresse de rue publiée par l'organisateur ; numéro et salle exacte à confirmer",
     "dataQuality": "official_page",
     "lastAddressScan": "2026-10-30T11:22:05.327813+00:00",
     "firstSourceUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "firstSourceType": "discovery",
-    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "address": "Avenue du Stade, 1530 Payerne",
+    "addressVerified": false,
+    "addressSource": "https://echecs-payerne.ch/grand-prix-de-payerne-2026/",
+    "addressSourceLocation": "Annonce du 30e Grand Prix de Payerne : mention « Av. du Stade »",
+    "addressEvidence": "Av. du Stade",
+    "venue": "Lieu indiqué avenue du Stade (nom de la salle à confirmer)"
   },
   {
     "id": "ssb-junior-2026-11-22-oberglatter-jugendturnier",
