@@ -67,7 +67,7 @@
     "url": "https://www.sgwinterthur.ch/wjsm2026/",
     "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "source": "https://www.sgwinterthur.ch/wjsm2026/",
-    "status": "Consulter l'annonce de l'organisateur pour horaires et prix",
+    "status": "Horaires confirmés sur le programme de l'organisateur ; tarif à confirmer",
     "venue": "Kirchgemeindehaus Veltheim",
     "address": "Feldstrasse 6, 8400 Winterthur",
     "addressVerified": true,
@@ -76,7 +76,10 @@
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://www.sgwinterthur.ch/wjsm2026/",
-    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
+    "time": "09h00–09h45 contrôle des présences ; 10h00 première ronde ; 12h00–13h00 pause ; 16h30 remise des prix",
+    "timeSource": "https://www.sgwinterthur.ch/wjsm2026/",
+    "timeVerified": true
   },
   {
     "id": "multi-2026-11-02-rapidschach-schachclub-z-rich-h-ngg",
