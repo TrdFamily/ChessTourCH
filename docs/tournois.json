@@ -36,19 +36,23 @@
   {
     "id": "ssb-junior-2026-11-07-2-qualiturnier-in-lugano",
     "title": "2. Qualiturnier in Lugano",
-    "date": "2026-11-07",
-    "endDate": "2026-11-07",
-    "city": "",
+    "date": "2026-11-06",
+    "endDate": "2026-11-08",
+    "city": "Lugano",
     "category": "Junior",
     "tempo": "",
     "lat": null,
     "lon": null,
     "adultPrice": null,
-    "juniorPrice": null,
+    "juniorPrice": 50,
     "registrationUrl": null,
-    "url": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
-    "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
-    "status": "À vérifier auprès de l'organisateur"
+    "url": "https://swisschess.ch/fr/news/68-november-in-lugano-zweites-quali-turnier-zur-u10u12u14u16u18-meisterschaft-2027",
+    "source": "https://swisschess.ch/fr/news/68-november-in-lugano-zweites-quali-turnier-zur-u10u12u14u16u18-meisterschaft-2027",
+    "status": "À vérifier auprès de l'organisateur",
+    "venue": "Palazzo dei Congressi, salle B",
+    "address": "Piazza dell'Indipendenza 4, 6900 Lugano",
+    "addressVerified": true,
+    "time": "Vendredi 18h30 ; samedi 9h30 et 14h30 ; dimanche 9h et 13h30"
   },
   {
     "id": "courroux-echecs-aux-loups-2026-11-08",
@@ -56,7 +60,7 @@
     "date": "2026-11-08",
     "endDate": "2026-11-08",
     "city": "Courroux (près de Delémont)",
-    "address": "Halle de gymnastique, Courroux",
+    "address": null,
     "time": "14h00–17h30",
     "category": "Junior",
     "ageCategories": "U10, U15, U20",
@@ -68,7 +72,9 @@
     "registrationUrl": null,
     "url": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html",
     "source": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html",
-    "status": "Horaire et lieu confirmés ; prix et inscription à confirmer"
+    "status": "Horaire et lieu confirmés ; prix et inscription à confirmer",
+    "venue": "Halle de gymnastique de Courroux",
+    "addressVerified": false
   },
   {
     "id": "ssb-junior-2026-11-15-trubschachen-jugend-grand-prix",
