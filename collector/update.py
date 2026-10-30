@@ -313,17 +313,17 @@ def extract_address_candidates(text, city=""):
 
 def extract_program(raw_text):
     """Conservative extraction of clearly labelled organizer schedule rows."""
-    lines = [re.sub(r"\\s+", " ", s).strip() for s in raw_text.splitlines()]
+    lines = [re.sub(r"\s+", " ", s).strip() for s in raw_text.splitlines()]
     lines = [s for s in lines if s]
     labels = (
         (r"Anwesenheitskontrolle|contr[oô]le des pr[eé]sences", "Contrôle des présences"),
-        (r"Start zur? 1\\. Runde|Beginn der 1\\. Runde|premi[eè]re ronde", "Première ronde"),
+        (r"Start zur? 1\. Runde|Beginn der 1\. Runde|premi[eè]re ronde", "Première ronde"),
         (r"Mittagspause|pause de midi", "Pause de midi"),
         (r"Rangverk[uü]ndigung|Siegerehrung|remise des prix", "Remise des prix"),
     )
     result = []
     for line in lines:
-        time_match = re.search(r"\\b([01]?\\d|2[0-3])[:.]([0-5]\\d)\\s*(?:bis|[-–])?\\s*(?:([01]?\\d|2[0-3])[:.]([0-5]\\d))?", line, re.I)
+        time_match = re.search(r"\b([01]?\d|2[0-3])[:.]([0-5]\d)\s*(?:bis|[-–])?\s*(?:([01]?\d|2[0-3])[:.]([0-5]\d))?", line, re.I)
         if not time_match:
             continue
         for pattern, label in labels:
@@ -353,7 +353,7 @@ def inspect_known_page(event):
     parser.feed(raw)
     text = re.sub(r"\\s+", " ", " ".join(parser.parts))
     if not event.get("time"):
-        program = extract_program("\\n".join(parser.parts))
+        program = extract_program("\n".join(parser.parts))
         if program:
             event["time"] = program
             event["timeSource"] = url
