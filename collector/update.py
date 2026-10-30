@@ -177,7 +177,7 @@ class PageText(HTMLParser):
         if tag in ("script", "style", "nav", "footer"):
             self.skip += 1
         if tag in ("p", "div", "h1", "h2", "h3", "li", "br", "tr"):
-            self.parts.append("\\n")
+            self.parts.append("\n")
         if tag == "a":
             self.href = attrs.get("href")
     def handle_endtag(self, tag):
@@ -209,7 +209,7 @@ def inspect_candidate(event, url):
         return None
     parser = PageText()
     parser.feed(raw)
-    text = re.sub(r"\\s+", " ", " ".join(parser.parts))
+    text = re.sub(r"\s+", " ", " ".join(parser.parts))
     event_words = keywords(event["title"])
     page_words = keywords(text[:30000])
     if not event_words or len(event_words & page_words) < max(1, min(2, len(event_words))):
@@ -233,7 +233,7 @@ def inspect_candidate(event, url):
             result["registrationUrl"] = link
             break
     # Extract only an explicitly labelled single admission fee, with currency.
-    fee = re.search(r"(?:Startgeld|Teilnahmegebühr|Inscription|Frais d.inscription)\\s*[:–-]?\\s*(?:CHF|Fr\\.?|SFr\\.?)\\s*(\\d{1,3})(?!\\d)", text, re.I)
+    fee = re.search(r"(?:Startgeld|Teilnahmegebühr|Inscription|Frais d.inscription)\s*[:–-]?\s*(?:CHF|Fr\.?|SFr\.?)\s*(\d{1,3})(?!\d)", text, re.I)
     if fee:
         result["feeCandidate"] = "CHF " + fee.group(1) + " (catégorie à confirmer)"
     return result
