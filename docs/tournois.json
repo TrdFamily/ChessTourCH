@@ -670,39 +670,8 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
-    "lastCandidateSearch": "2026-10-30T11:16:44.768908+00:00",
-    "officialCandidates": [
-      {
-        "url": "https://www.weforum.org/stories/forum-institutional/davos-2026-annual-meeting-what-to-expect",
-        "title": "Candidat à vérifier",
-        "score": 6
-      },
-      {
-        "url": "https://www.tripadvisor.com/Tourism-g188090-Davos_Canton_of_Graubunden_Swiss_Alps-Vacations.html",
-        "title": "Candidat à vérifier",
-        "score": 6
-      },
-      {
-        "url": "https://www.standard.co.uk/news/politics/davos-2026-trump-starmer-zelensky-carney-g7-b1132655.html",
-        "title": "Candidat à vérifier",
-        "score": 6
-      },
-      {
-        "url": "https://www.myswitzerland.com/en/destinations/davos/",
-        "title": "Candidat à vérifier",
-        "score": 4
-      },
-      {
-        "url": "https://www.davos.ch/en",
-        "title": "Candidat à vérifier",
-        "score": 4
-      },
-      {
-        "url": "https://thedavoscabinet.com/editorial/davos-2027-complete-guide/",
-        "title": "Candidat à vérifier",
-        "score": 4
-      }
-    ]
+    "lastCandidateSearch": "",
+    "officialCandidates": []
   },
   {
     "id": "multi-2026-11-28-steckborn-jugendschachturnier",
