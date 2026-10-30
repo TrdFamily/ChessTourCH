@@ -164,22 +164,97 @@ def discover_candidates(event):
             break
     return result
 
-def enrich_candidates(events):
-    # Rotate through unresolved entries across runs; candidates are never official proof.
-    unresolved = [e for e in events if not e.get("url")]
-    if not unresolved:
-        return events
-    cursor_path = OUT.parent / ".search_cursor"
+class PageText(HTMLParser):
+    """Extract visible text and safe absolute registration links."""
+    def __init__(self):
+        super().__init__()
+        self.parts = []
+        self.links = []
+        self.skip = 0
+        self.href = None
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag in ("script", "style", "nav", "footer"):
+            self.skip += 1
+        if tag in ("p", "div", "h1", "h2", "h3", "li", "br", "tr"):
+            self.parts.append("\\n")
+        if tag == "a":
+            self.href = attrs.get("href")
+    def handle_endtag(self, tag):
+        if tag in ("script", "style", "nav", "footer") and self.skip:
+            self.skip -= 1
+        if tag == "a":
+            self.href = None
+    def handle_data(self, data):
+        if not self.skip:
+            self.parts.append(data)
+            if self.href and re.search(r"inscri|anmeld|registr|teilnehm", data, re.I):
+                self.links.append(self.href)
+
+def inspect_candidate(event, url):
+    """Only promote a result if the actual page corroborates the edition and title."""
+    from urllib.parse import urljoin, urlsplit
+    if not url.startswith("https://"):
+        return None
+    host = urlsplit(url).hostname or ""
+    if host in ("chessmates.live", "www.google.com", "www.bing.com") or "facebook.com" in host:
+        return None
     try:
-        offset = int(cursor_path.read_text(encoding="utf-8")) % len(unresolved)
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 ChessTourCH/0.5"})
+        with urllib.request.urlopen(req, timeout=10) as response:
+            if "text/html" not in response.headers.get("Content-Type", ""):
+                return None
+            raw = response.read(350000).decode("utf-8", "replace")
     except (OSError, ValueError):
-        offset = 0
-    batch = [unresolved[(offset + i) % len(unresolved)] for i in range(min(20, len(unresolved)))]
+        return None
+    parser = PageText()
+    parser.feed(raw)
+    text = re.sub(r"\\s+", " ", " ".join(parser.parts))
+    event_words = keywords(event["title"])
+    page_words = keywords(text[:30000])
+    if not event_words or len(event_words & page_words) < max(1, min(2, len(event_words))):
+        return None
+    # A year alone is not sufficient: require the event's day/month/year or ISO date.
+    d = date.fromisoformat(event["date"])
+    formats = (d.isoformat(), f"{d.day}.{d.month}.{d.year}", f"{d.day:02d}.{d.month:02d}.{d.year}",
+               f"{d.day}/{d.month}/{d.year}", f"{d.day:02d}/{d.month:02d}/{d.year}")
+    if not any(x in text or x in raw for x in formats):
+        return None
+    # Never promote a generic index or news search results page.
+    if re.search(r"/(turniere|tournois|calendar|kalender|events)/?$", urlsplit(url).path, re.I):
+        return None
+    result = {"url": url, "dataQuality": "official_page", "verifiedBy": "automated_page_match"}
+    for href in parser.links:
+        link = urljoin(url, href)
+        if link.startswith("https://") and urlsplit(link).hostname == host:
+            result["registrationUrl"] = link
+            break
+        if link.startswith("mailto:"):
+            result["registrationUrl"] = link
+            break
+    # Extract only an explicitly labelled single admission fee, with currency.
+    fee = re.search(r"(?:Startgeld|Teilnahmegebühr|Inscription|Frais d.inscription)\\s*[:–-]?\\s*(?:CHF|Fr\\.?|SFr\\.?)\\s*(\\d{1,3})(?!\\d)", text, re.I)
+    if fee:
+        result["feeCandidate"] = "CHF " + fee.group(1) + " (catégorie à confirmer)"
+    return result
+
+def enrich_candidates(events):
+    # Persist per-event search attempts in JSON, so the workflow does not retry
+    # the same first twenty events after each fresh GitHub Actions checkout.
+    unresolved = [e for e in events if not e.get("url")]
+    batch = sorted(unresolved, key=lambda e: (e.get("lastCandidateSearch", ""), e.get("date", "")))[:12]
     for event in batch:
         found = discover_candidates(event)
-        if found:
-            event["officialCandidates"] = found
-    cursor_path.write_text(str((offset + len(batch)) % len(unresolved)), encoding="utf-8")
+        event["lastCandidateSearch"] = date.today().isoformat()
+        event["officialCandidates"] = found
+        for candidate in found:
+            verified = inspect_candidate(event, candidate["url"])
+            if verified:
+                # Keep an existing registration URL; never overwrite verified data.
+                for key, value in verified.items():
+                    if not event.get(key):
+                        event[key] = value
+                break
     return events
 
 def main():
