@@ -291,10 +291,13 @@ def inspect_candidate(event, url):
     return result
 
 ADDRESS_RE = re.compile(
-    r"(?i)(?:rue|route|avenue|av\\.|chemin|place|quai|boulevard|impasse|strasse|straße|weg|gasse|via|piazza)"
-    r"\\s+[A-Za-zÀ-ÿ0-9'’ .-]{3,65}?\\s*,?\\s*\\b\\d{1,3}[a-zA-Z]?\\b"
-    r"(?:\\s*[,;-]?\\s*\\b\\d{4}\\s+[A-Za-zÀ-ÿ .-]{2,40})?")
-POSTAL_RE = re.compile(r"\\b[1-9]\\d{3}\\s+[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ .-]{2,35}")
+    r"(?i)\b(?:rue|route|avenue|av\.?|chemin|ch\.?|place|pl\.?|quai|boulevard|bd\.?|"
+    r"impasse|strasse|straße|str\.?|weg|gasse|via|piazza)\s+"
+    r"[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'’ .-]{2,55}"
+    r"(?:\s+\d{1,3}[a-zA-Z]?)?"
+    r"(?:\s*[,;-]?\s*[1-9]\d{3}\s+[A-Za-zÀ-ÿ .-]{2,40})?"
+)
+POSTAL_RE = re.compile(r"\b[1-9]\d{3}\s+[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ .-]{2,35}")
 
 def extract_address_candidates(text, city=""):
     """Return evidence, not guesses. Preserve original excerpts for review."""
