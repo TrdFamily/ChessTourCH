@@ -59,7 +59,7 @@ def parse(html, today=None):
             "city": title.split(":", 1)[0] if ":" in title else "",
             "category": "Junior", "tempo": "", "lat": None, "lon": None,
             "adultPrice": None, "juniorPrice": None, "registrationUrl": None,
-            "url": SOURCE, "source": SOURCE, "status": "À vérifier auprès de l'organisateur"
+            "url": None, "discoveryUrl": SOURCE, "source": SOURCE, "status": "À vérifier auprès de l'organisateur"
         })
     # Tournoi local confirme par l'annonce regionale RFJ du 19 octobre 2026.
     local_events = [{
@@ -73,7 +73,7 @@ def parse(html, today=None):
         "tempo": "", "lat": None, "lon": None,
         "adultPrice": None, "juniorPrice": None,
         "registrationUrl": None,
-        "url": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html",
+        "url": None, "discoveryUrl": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html",
         "source": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html",
         "status": "Horaire et lieu confirmés ; prix et inscription à confirmer"
     }]
@@ -105,7 +105,7 @@ def parse(html, today=None):
     local_events[0].update({
         "venue": "Halle de gymnastique Général-Guisan",
         "address": "Rue du Général-Guisan 3, 2822 Courroux", "addressVerified": True,
-        "url": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html"
+        "url": None
     })
     # Annonces de clubs hors liste federale, verifiees sur leurs pages.
     local_events.extend([
@@ -123,7 +123,7 @@ def parse(html, today=None):
          "date":"2026-11-04","endDate":"2026-11-04","city":"Degersheim",
          "venue":"Restaurant Rose","address":"Bergstrasse 1, 9113 Degersheim",
          "addressVerified":True,"time":None,"juniorPrice":None,"adultPrice":None,
-         "category":"Adultes","tempo":"","url":"https://chessmates.live/turniere",
+         "category":"Adultes","tempo":"","url":None,"discoveryUrl":"https://chessmates.live/turniere",
          "source":"https://chessmates.live/turniere"}
     ])
     events.extend(event for event in local_events if event["date"] >= today.isoformat())
@@ -165,11 +165,21 @@ def discover_candidates(event):
     return result
 
 def enrich_candidates(events):
-    # Search is a lead, never proof: no automatic assignment to the official URL.
-    for event in [e for e in events if not e.get("url") and not e.get("officialCandidates")][:20]:
+    # Rotate through unresolved entries across runs; candidates are never official proof.
+    unresolved = [e for e in events if not e.get("url")]
+    if not unresolved:
+        return events
+    cursor_path = OUT.parent / ".search_cursor"
+    try:
+        offset = int(cursor_path.read_text(encoding="utf-8")) % len(unresolved)
+    except (OSError, ValueError):
+        offset = 0
+    batch = [unresolved[(offset + i) % len(unresolved)] for i in range(min(20, len(unresolved)))]
+    for event in batch:
         found = discover_candidates(event)
         if found:
             event["officialCandidates"] = found
+    cursor_path.write_text(str((offset + len(batch)) % len(unresolved)), encoding="utf-8")
     return events
 
 def main():
@@ -187,6 +197,12 @@ def main():
             existing = merged.get(event["id"], {})
             merged[event["id"]] = {**event, **{k: v for k, v in existing.items() if v is not None and v != ""}}
         events = sorted(merged.values(), key=lambda e: e["date"])
+    for event in events:
+        url = event.get("url") or ""
+        if url in (SOURCE, "https://chessmates.live/turniere") or "rfj.ch/rfj/Actualite/" in url:
+            event["discoveryUrl"] = url
+            event["url"] = None
+        event["dataQuality"] = "official_page" if event.get("url") else ("organizer_only" if event.get("organizerUrl") else "needs_official_page")
     events = enrich_candidates(events)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(events, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
