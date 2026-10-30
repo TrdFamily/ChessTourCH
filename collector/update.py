@@ -61,6 +61,23 @@ def parse(html, today=None):
             "adultPrice": None, "juniorPrice": None, "registrationUrl": None,
             "url": SOURCE, "source": SOURCE, "status": "À vérifier auprès de l'organisateur"
         })
+    # Tournoi local confirme par l'annonce regionale RFJ du 19 octobre 2026.
+    local_events = [{
+        "id": "courroux-echecs-aux-loups-2026-11-08",
+        "title": "2e tournoi junior Échecs aux Loups",
+        "date": "2026-11-08", "endDate": "2026-11-08",
+        "city": "Courroux (près de Delémont)",
+        "address": "Halle de gymnastique, Courroux",
+        "time": "14h00–17h30", "category": "Junior",
+        "ageCategories": "U10, U15, U20",
+        "tempo": "", "lat": None, "lon": None,
+        "adultPrice": None, "juniorPrice": None,
+        "registrationUrl": None,
+        "url": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html",
+        "source": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html",
+        "status": "Horaire et lieu confirmés ; prix et inscription à confirmer"
+    }]
+    events.extend(event for event in local_events if event["date"] >= today.isoformat())
     return list({event["id"]: event for event in events}.values())
 
 def main():
