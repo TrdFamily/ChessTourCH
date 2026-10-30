@@ -20,7 +20,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "official_page",
     "organizerUrl": "https://www.sprengschach.ch/",
-    "lastAddressScan": "2026-10-30T11:22:08.062888+00:00"
+    "lastAddressScan": "2026-10-30T11:22:08.062888+00:00",
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "multi-2026-10-30-lugano-open",
@@ -41,7 +44,12 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Annonce officielle organisateur vérifiée",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "official_page"
+    "dataQuality": "official_page",
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://www.swisschesstour.com/1/lugano_open_2130427.html",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "ssb-junior-2026-10-31-winterthur-jugendstadtmeisterschaft",
@@ -63,7 +71,12 @@
     "venue": "Kirchgemeindehaus Veltheim",
     "address": "Feldstrasse 6, 8400 Winterthur",
     "addressVerified": true,
-    "dataQuality": "official_page"
+    "dataQuality": "official_page",
+    "firstSourceUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://www.sgwinterthur.ch/wjsm2026/",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-02-rapidschach-schachclub-z-rich-h-ngg",
@@ -86,7 +99,12 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T10:45:06.634189+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-02-bern-seniorenturnier",
@@ -109,7 +127,12 @@
     "organizerUrl": "https://mychess.events/event-organizer/schweizer-schach-senioren/",
     "dataQuality": "organizer_only",
     "lastCandidateSearch": "2026-10-30T10:45:06.906103+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "ssb-junior-2026-11-04-basel-schachstadt-im-kleinen-wassermann-kinde",
@@ -130,7 +153,10 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T10:45:07.110669+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "chessmates-degersheim-herbst-r2-2026-11-04",
@@ -152,7 +178,12 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T10:45:07.277144+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/turniere",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/turniere",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-04-8-seebach-friends-rapid-open",
@@ -176,7 +207,10 @@
     "dataQuality": "organizer_only",
     "organizerUrl": "https://lichess.org/broadcast/8-seebach-friends-rapid-open/round-1/FYvxi28Q",
     "lastCandidateSearch": "2026-10-30T10:45:07.490626+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "ssb-junior-2026-11-07-2-qualiturnier-in-lugano",
@@ -199,7 +233,12 @@
     "address": "Piazza dell'Indipendenza 4, 6900 Lugano",
     "addressVerified": true,
     "time": "Vendredi 18h30 ; samedi 9h30 et 14h30 ; dimanche 9h et 13h30",
-    "dataQuality": "official_page"
+    "dataQuality": "official_page",
+    "firstSourceUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://swisschess.ch/fr/news/68-november-in-lugano-zweites-quali-turnier-zur-u10u12u14u16u18-meisterschaft-2027",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-07-polychamps-vii",
@@ -222,7 +261,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "official_page",
     "eligibility": "Match ETHZ–EPFL (8 joueurs par équipe) et tournoi blitz en ligne ouvert aux membres des deux écoles",
-    "lastAddressScan": "2026-10-30T11:22:08.224655+00:00"
+    "lastAddressScan": "2026-10-30T11:22:08.224655+00:00",
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-07-10-steinbock-open",
@@ -245,7 +287,10 @@
     "organizerUrl": "https://schachclub-chur.ch/turniere/",
     "dataQuality": "organizer_only",
     "lastCandidateSearch": "2026-10-30T10:45:07.655118+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://schachclub-chur.ch/turniere/",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-07-oplenac-basel-blitz-open",
@@ -268,7 +313,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T10:45:07.858738+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "courroux-echecs-aux-loups-2026-11-08",
@@ -295,7 +343,12 @@
     "locationSource": "https://www.courroux.ch/fr/Visiter/Points-d-interets-1/Halle-de-gymnastique.html",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T10:45:08.053441+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-11-degersheimer-herbstturnier-runde-3",
@@ -318,7 +371,12 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T10:45:08.242054+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "ssb-junior-2026-11-15-trubschachen-jugend-grand-prix",
@@ -339,7 +397,10 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T10:45:08.412675+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "ssb-junior-2026-11-15-nyon-galactic-games",
@@ -360,7 +421,10 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T10:45:08.596110+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-15-otto-burkhalter-gedenkturnier",
@@ -383,7 +447,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T10:45:08.805262+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-16-luzerner-senioren-open",
@@ -406,7 +473,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:16:37.705802+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-18-degersheimer-herbstturnier-runde-4",
@@ -429,7 +499,12 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:16:38.517453+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-19-schachstadt-in-der-uni-blitz-turnie",
@@ -452,7 +527,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:16:39.197624+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "ssb-junior-2026-11-21-2-runde-z-richsee-jugend-gp",
@@ -473,7 +551,10 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:16:39.877539+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-21-ch-l-sungsmeisterschaft-bern",
@@ -496,7 +577,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:16:40.531299+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "ssb-junior-2026-11-22-30-grand-prix-de-payerne",
@@ -516,7 +600,10 @@
     "source": "https://echecs-payerne.ch/grand-prix-de-payerne-2026/",
     "status": "Site organisateur identifié ; horaires, tarif, lieu et délai à vérifier",
     "dataQuality": "official_page",
-    "lastAddressScan": "2026-10-30T11:22:05.327813+00:00"
+    "lastAddressScan": "2026-10-30T11:22:05.327813+00:00",
+    "firstSourceUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "ssb-junior-2026-11-22-oberglatter-jugendturnier",
@@ -537,7 +624,10 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:16:41.297278+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "ssb-junior-2026-11-22-junioren-vierwaldst-ttersee-gp",
@@ -558,7 +648,10 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:16:41.898867+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-22-18-glarner-schachtag",
@@ -581,7 +674,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:16:42.607092+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-22-rheintalische-einzelmeisterschaft-s",
@@ -604,7 +700,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:16:43.211479+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-25-degersheimer-herbstturnier-runde-5",
@@ -627,7 +726,12 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:16:43.970059+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-27-open-du-jura-2026",
@@ -651,7 +755,12 @@
     "registrationDeadline": "2026-11-27",
     "registrationDeadlineTime": "18:00",
     "registrationDeadlineNote": "Virement avant le 20 novembre ; paiement sur place en espèces",
-    "dataQuality": "official_page"
+    "dataQuality": "official_page",
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://juraopen.ch/informations/",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-27-davos-new-ski-open",
@@ -674,7 +783,12 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:20:42.436550+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-28-steckborn-jugendschachturnier",
@@ -697,7 +811,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:16:47.848217+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "sc-reti-schoenau-rapid-u12-2026-11-29",
@@ -719,7 +836,12 @@
     "status": "Informations vérifiées sur l'annonce du club",
     "registrationDeadline": "2026-11-24",
     "eligibility": "U12, nés en 2014 ou après, sans Elo ou Elo inférieur à 1400; maximum 40 joueurs",
-    "dataQuality": "official_page"
+    "dataQuality": "official_page",
+    "firstSourceUrl": "https://www.screti.ch/index.php/jugendschach/schonau-rapidturnier-u12.html",
+    "firstSourceType": "organizer",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://www.screti.ch/index.php/jugendschach/schonau-rapidturnier-u12.html",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-29-open-blitz-de-l-escal",
@@ -742,7 +864,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:17:14.050536+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "multi-2026-11-30-bad-ragaz-seniorenturnier",
@@ -765,7 +890,12 @@
     "organizerUrl": "https://mychess.events/event-organizer/schweizer-schach-senioren/",
     "dataQuality": "organizer_only",
     "lastCandidateSearch": "2026-10-30T11:17:14.711027+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "multi-2026-12-02-z-richsee-rapidturnier-2026",
@@ -788,7 +918,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:17:15.447635+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "multi-2026-12-05-biel-2-freestyle-rapidturnier",
@@ -811,7 +944,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:17:16.021349+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "multi-2026-12-05-9-soorser-blitzmeisterschaft",
@@ -834,7 +970,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:17:16.940477+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "multi-2026-12-05-schaffhausen-2days-open",
@@ -858,7 +997,12 @@
     "dataQuality": "organizer_only",
     "organizerUrl": "https://www.swisschesstour.com/",
     "lastCandidateSearch": "2026-10-30T11:17:17.623435+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "multi-2026-12-06-schweizer-rapidmeisterschaft-u8",
@@ -881,7 +1025,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:17:18.267680+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "multi-2026-12-07-rapidschach-schachclub-z-rich-h-ngg",
@@ -904,7 +1051,12 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:17:18.997393+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "multi-2026-12-26-50-zuercher-weihnachtsopen",
@@ -925,7 +1077,12 @@
     "source": "https://www.weihnachtsopen.ch/ausschreibung/",
     "status": "Informations vérifiées sur l'annonce officielle",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "official_page"
+    "dataQuality": "official_page",
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://www.weihnachtsopen.ch/ausschreibung/",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "multi-2026-12-26-basel-xmas-festival",
@@ -949,7 +1106,12 @@
     "dataQuality": "organizer_only",
     "organizerUrl": "https://www.swisschesstour.com/",
     "lastCandidateSearch": "2026-10-30T11:17:19.714195+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-01-01-29-hotel-meielisalp-open",
@@ -972,7 +1134,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:17:20.433881+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-01-06-open-international-d-echecs-de-neuchatel-u200",
@@ -995,7 +1160,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:17:21.180037+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-01-08-schaffhausen-new-year-chess-open-2027",
@@ -1019,7 +1187,12 @@
     "registrationDeadlineNote": "Clôture en ligne ; inscription sur place possible selon disponibilités",
     "tempo": "90 min + 30 sec/coup",
     "eligibility": "Open FIDE, maximum 80 joueurs",
-    "dataQuality": "official_page"
+    "dataQuality": "official_page",
+    "firstSourceUrl": "https://www.swisschesstour.com/1/schaffhausen_new_year_3235077.html",
+    "firstSourceType": "organizer",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://www.swisschesstour.com/1/schaffhausen_new_year_3235077.html",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-01-11-sss-zurich-1-2027",
@@ -1042,7 +1215,12 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:17:21.849835+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-01-15-3-qualiturnier-2027",
@@ -1065,7 +1243,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:20:43.321367+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-01-24-international-solving-contest",
@@ -1088,7 +1269,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:20:44.318961+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-01-24-jgp3-einsiedeln",
@@ -1111,7 +1295,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:20:45.230190+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-01-29-tournoi-blitz-nyon",
@@ -1134,7 +1321,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:20:46.113403+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-01-30-echecs-et-mets",
@@ -1157,7 +1347,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:20:46.992047+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-01-30-tournoi-nyon",
@@ -1180,7 +1373,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:20:47.899045+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-02-07-38e-open-rapide-du-ceg",
@@ -1203,7 +1399,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:20:48.769238+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-02-08-sss-zurich-2-2027",
@@ -1226,7 +1425,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:20:49.657499+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-02-12-25-stadthaus-open",
@@ -1249,7 +1451,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:20:50.550647+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-02-27-lugano-paradiso-memorial-picchi",
@@ -1273,7 +1478,12 @@
     "dataQuality": "organizer_only",
     "organizerUrl": "https://www.swisschesstour.com/",
     "lastCandidateSearch": "2026-10-30T11:20:51.470129+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-03-05-basel-spring-open-2027",
@@ -1296,7 +1506,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:20:52.347425+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-03-14-sss-mendrisio-2027",
@@ -1319,7 +1532,12 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:21:58.453174+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-03-19-open-de-la-broye",
@@ -1342,7 +1560,10 @@
     "organizerUrl": "https://echecs-payerne.ch/",
     "dataQuality": "organizer_only",
     "lastCandidateSearch": "2026-10-30T11:21:58.906685+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://echecs-payerne.ch/",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-03-19-open-de-la-broye-junior",
@@ -1365,7 +1586,10 @@
     "organizerUrl": "https://echecs-payerne.ch/",
     "dataQuality": "organizer_only",
     "lastCandidateSearch": "2026-10-30T11:21:59.355046+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://echecs-payerne.ch/",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-03-19-4-qualiturnier-2027",
@@ -1388,7 +1612,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:21:59.976457+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-03-24-swiss-young-masters-2027",
@@ -1411,7 +1638,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:22:00.457900+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-04-03-toggenburger-rapidmeisterschaft",
@@ -1434,7 +1664,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:22:00.906976+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-04-04-sjrm",
@@ -1457,7 +1690,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:22:01.314627+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-04-09-locarno-swiss-lake-open",
@@ -1480,7 +1716,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:22:02.092192+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-04-11-sss-lausanne-2027",
@@ -1503,7 +1742,12 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:22:02.549519+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-04-23-80-thuner-stadtmeisterschaft",
@@ -1526,7 +1770,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:22:03.056674+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-04-30-4-letzi-open",
@@ -1549,7 +1796,12 @@
     "registrationDeadlineNote": "Le 25 avril 2027 est la date de paiement pour être dispensé du contrôle de présence, pas une date limite d'inscription.",
     "tempo": "3 rondes rapides 10+5 ; 4 rondes classiques 90+30",
     "eligibility": "Tournoi ouvert; 100 participants maximum",
-    "dataQuality": "official_page"
+    "dataQuality": "official_page",
+    "firstSourceUrl": "https://open.scletzi.ch/",
+    "firstSourceType": "organizer",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://open.scletzi.ch/",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-04-30-serpiano-weekend-open",
@@ -1573,7 +1825,12 @@
     "dataQuality": "organizer_only",
     "organizerUrl": "https://www.swisschesstour.com/",
     "lastCandidateSearch": "2026-10-30T11:22:03.559115+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-05-02-therwil-youth-team-tournament",
@@ -1596,7 +1853,10 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
     "lastCandidateSearch": "2026-10-30T11:22:04.114810+00:00",
-    "officialCandidates": []
+    "officialCandidates": [],
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-05-06-bundesturnier-2027",
@@ -1617,7 +1877,12 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-06-05-san-bernardino-2days-open",
@@ -1639,7 +1904,12 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "organizer_only",
-    "organizerUrl": "https://www.swisschesstour.com/"
+    "organizerUrl": "https://www.swisschesstour.com/",
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-06-14-sss-laax-2027",
@@ -1660,7 +1930,12 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-06-18-lenzerheide-amateur-2027",
@@ -1682,7 +1957,12 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "organizer_only",
-    "organizerUrl": "https://www.swisschesstour.com/"
+    "organizerUrl": "https://www.swisschesstour.com/",
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-07-02-andeer-spa-open",
@@ -1704,7 +1984,12 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "organizer_only",
-    "organizerUrl": "https://www.swisschesstour.com/"
+    "organizerUrl": "https://www.swisschesstour.com/",
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-07-10-championnats-suisses-individuels-2027",
@@ -1725,7 +2010,10 @@
     "source": "https://swisschess.ch/fr/news/die-sem-2027-findet-erneut-in-disentis-statt",
     "status": "Dates et lieu confirmés par Swiss Chess; règlement, inscription et adresse postale encore à publier",
     "dataQuality": "official_page",
-    "lastAddressScan": "2026-10-30T11:22:09.035219+00:00"
+    "lastAddressScan": "2026-10-30T11:22:09.035219+00:00",
+    "firstSourceUrl": "https://swisschess.ch/fr/news/die-sem-2027-findet-erneut-in-disentis-statt",
+    "firstSourceType": "organizer",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-07-10-festival-international-d-echecs-de-bienne-202",
@@ -1747,7 +2035,10 @@
     "status": "Dates 10–23 juillet confirmées par l'organisateur; détails 2027 non publiés",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "official_page",
-    "lastAddressScan": "2026-10-30T11:22:09.535809+00:00"
+    "lastAddressScan": "2026-10-30T11:22:09.535809+00:00",
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-08-02-sss-adelboden-2027",
@@ -1768,7 +2059,12 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-09-06-sss-pontresina-2027",
@@ -1789,7 +2085,12 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-10-04-sss-gstaad-2027",
@@ -1810,7 +2111,12 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "addressSource": "https://chessmates.live/fr/tournois-echecs",
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
   },
   {
     "id": "calendar-2027-2027-12-26-51-zurcher-weihnachtsopen",
@@ -1831,6 +2137,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
   }
 ]
