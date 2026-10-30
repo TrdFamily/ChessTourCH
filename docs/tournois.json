@@ -624,7 +624,9 @@
     "url": "https://www.screti.ch/index.php/jugendschach/schonau-rapidturnier-u12.html",
     "source": "https://www.screti.ch/index.php/jugendschach/schonau-rapidturnier-u12.html",
     "registrationUrl": "mailto:roman@schnelli.com",
-    "status": "Annonce de l'organisateur"
+    "status": "Informations vérifiées sur l'annonce du club",
+    "registrationDeadline": "2026-11-24",
+    "eligibility": "U12, nés en 2014 ou après, sans Elo ou Elo inférieur à 1400; maximum 40 joueurs"
   },
   {
     "id": "multi-2026-11-29-open-blitz-de-l-escal",
@@ -792,17 +794,17 @@
     "endDate": "2026-12-30",
     "city": "Zürich",
     "category": "Adultes",
-    "venue": null,
-    "address": null,
-    "addressVerified": false,
-    "time": null,
-    "adultPrice": null,
-    "juniorPrice": null,
-    "tempo": "",
-    "registrationUrl": null,
-    "url": null,
-    "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "venue": "Hotel Crowne Plaza Zürich",
+    "address": "Badenerstrasse 420, 8040 Zürich",
+    "addressVerified": true,
+    "time": "26.12 contrôle avant 13h15, ronde 1 à 14h30; 27.12 09h30/16h; 28.12 13h; 29.12 09h30/16h; 30.12 09h30",
+    "adultPrice": "CHF 180 (Maîtres) / CHF 160 (Open général)",
+    "juniorPrice": "CHF 90 (Maîtres) / CHF 80 (Open général)",
+    "tempo": "7 rondes; 90 min / 40 coups + 30 min + 30 s/coup",
+    "registrationUrl": "https://www.weihnachtsopen.ch/",
+    "url": "https://www.weihnachtsopen.ch/ausschreibung/",
+    "source": "https://www.weihnachtsopen.ch/ausschreibung/",
+    "status": "Informations vérifiées sur l'annonce officielle",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
@@ -875,7 +877,7 @@
     "venue": "Hotel Kronenhof",
     "address": "Kirchhofplatz 7, 8200 Schaffhausen",
     "addressVerified": true,
-    "time": null,
+    "time": "08.01 contrôle 19h–19h50, ronde 20h ; 09.01 rondes 09h/15h ; 10.01 rondes 09h/14h",
     "adultPrice": 100,
     "juniorPrice": 80,
     "registrationDeadline": "2027-01-07",
@@ -885,7 +887,8 @@
     "status": "Annonce de l'organisateur identifiée ; tarifs et délai recoupés",
     "registrationDeadlineTime": "16:00",
     "registrationDeadlineNote": "Clôture en ligne ; inscription sur place possible selon disponibilités",
-    "tempo": "90 min + 30 sec/coup"
+    "tempo": "90 min + 30 sec/coup",
+    "eligibility": "Open FIDE, maximum 80 joueurs"
   },
   {
     "id": "calendar-2027-2027-01-11-sss-zurich-1-2027",
@@ -1335,16 +1338,17 @@
     "venue": "Gemeinschaftszentrum Loogarten",
     "address": "Salzweg 1, 8048 Zürich",
     "addressVerified": true,
-    "time": "Vendredi 30 avril : contrôle 17h–18h15, rondes rapides dès 18h30 ; samedi et dimanche dès 10h",
+    "time": "30.04 contrôle 17h–18h15 et rondes 1–3 dès 18h30 ; 01.05 rondes 10h et 15h ; 02.05 rondes 10h et 15h",
     "adultPrice": 80,
     "juniorPrice": 50,
-    "registrationDeadline": "2027-04-25",
-    "registrationUrl": "https://open.scletzi.ch/",
+    "registrationDeadline": null,
+    "registrationUrl": "https://open.scletzi.ch/ssbcode",
     "url": "https://open.scletzi.ch/",
     "source": "https://open.scletzi.ch/",
-    "status": "Détails vérifiés sur le site du club organisateur",
-    "registrationDeadlineNote": "Date limite de paiement pour dispense du contrôle de présence, pas une fermeture définitive des inscriptions",
-    "tempo": "3 rondes rapides 10+5 ; 4 rondes classiques 90+30"
+    "status": "Programme et tarifs vérifiés sur la page de l'organisateur",
+    "registrationDeadlineNote": "Le 25 avril 2027 est la date de paiement pour être dispensé du contrôle de présence, pas une date limite d'inscription.",
+    "tempo": "3 rondes rapides 10+5 ; 4 rondes classiques 90+30",
+    "eligibility": "Tournoi ouvert; 100 participants maximum"
   },
   {
     "id": "calendar-2027-2027-04-30-serpiano-weekend-open",
