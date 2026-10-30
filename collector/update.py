@@ -129,6 +129,49 @@ def parse(html, today=None):
     events.extend(event for event in local_events if event["date"] >= today.isoformat())
     return list({event["id"]: event for event in events}.values())
 
+import urllib.parse
+import xml.etree.ElementTree as ET
+import unicodedata
+
+def keywords(s):
+    s = unicodedata.normalize("NFKD", s.lower())
+    s = "".join(x for x in s if not unicodedata.combining(x))
+    return set(re.findall(r"[a-z0-9]{4,}", s)) - {"open","chess","schach","2026","2027","turnier","tournoi","rapid","runde"}
+
+def discover_candidates(event):
+    query = event["title"] + " " + event["date"][:4] + " chess tournament organizer"
+    feed = "https://www.bing.com/search?format=rss&q=" + urllib.parse.quote(query)
+    try:
+        req = urllib.request.Request(feed, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=12) as response:
+            root = ET.fromstring(response.read(250000))
+    except (OSError, ValueError, ET.ParseError):
+        return []
+    result = []
+    base = keywords(event["title"])
+    for item in root.findall(".//item"):
+        url = item.findtext("link") or ""
+        title = item.findtext("title") or ""
+        snippet = item.findtext("description") or ""
+        if not url.startswith("https://") or any(x in url.lower() for x in ("chessmates.live","bing.com","google.com","facebook.com","instagram.com")):
+            continue
+        if len(base & keywords(title + " " + snippet)) < min(2,len(base)):
+            continue
+        if event["date"][:4] not in (title + " " + snippet + " " + url):
+            continue
+        result.append({"url":url,"title":title})
+        if len(result) >= 3:
+            break
+    return result
+
+def enrich_candidates(events):
+    # Search is a lead, never proof: no automatic assignment to the official URL.
+    for event in [e for e in events if not e.get("url") and not e.get("officialCandidates")][:20]:
+        found = discover_candidates(event)
+        if found:
+            event["officialCandidates"] = found
+    return events
+
 def main():
     request = urllib.request.Request(SOURCE, headers={"User-Agent": "ChessTourCH/0.4"})
     with urllib.request.urlopen(request, timeout=25) as response:
@@ -144,6 +187,7 @@ def main():
             existing = merged.get(event["id"], {})
             merged[event["id"]] = {**event, **{k: v for k, v in existing.items() if v is not None and v != ""}}
         events = sorted(merged.values(), key=lambda e: e["date"])
+    events = enrich_candidates(events)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(events, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"{len(events)} annonces juniors collectées")
