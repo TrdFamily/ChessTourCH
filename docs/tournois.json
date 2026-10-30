@@ -232,7 +232,7 @@
     "date": "2026-11-08",
     "endDate": "2026-11-08",
     "city": "Courroux (près de Delémont)",
-    "address": null,
+    "address": "Rue du Général-Guisan 3, 2822 Courroux",
     "time": "14h00–17h30",
     "category": "Junior",
     "ageCategories": "U10, U15, U20",
@@ -245,8 +245,9 @@
     "url": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html",
     "source": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html",
     "status": "Horaire et lieu confirmés ; prix et inscription à confirmer",
-    "venue": "Halle de gymnastique de Courroux",
-    "addressVerified": false
+    "venue": "Halle de gymnastique Général-Guisan",
+    "addressVerified": true,
+    "locationSource": "https://www.courroux.ch/fr/Visiter/Points-d-interets-1/Halle-de-gymnastique.html"
   },
   {
     "id": "multi-2026-11-11-degersheimer-herbstturnier-runde-3",
