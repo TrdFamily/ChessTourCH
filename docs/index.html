@@ -4,7 +4,7 @@
 <header><h1>♟ ChessTour CH</h1><div>Tournois d'échecs en Suisse · Grenchen (SO)</div></header>
 <main><p id="status" class="muted">Chargement des tournois…</p>
 <div class="controls"><button id="prev">◀</button><strong id="month"></strong><button id="next">▶</button><button id="today">Ce mois</button><select id="view"><option value="calendar">Calendrier</option><option value="list">Liste</option></select><select id="category"><option value="all">Toutes catégories</option><option value="Junior">Juniors</option><option value="Adultes">Adultes</option></select></div>
-<div id="calendar"></div><div id="selected-day" aria-live="polite"></div><div id="list"></div><p class="muted">Données indicatives : les informations manquantes ne sont pas inventées. Vérifiez les détails auprès de l'organisateur. Les tournois adultes et les distances restent à intégrer.</p></main>
+<div id="calendar"></div><div id="selected-day" aria-live="polite"></div><div id="list"></div></main>
 <script>
 const today=new Date(),state={month:new Date(today.getFullYear(),today.getMonth(),1),events:[],view:'calendar',category:'all'};
 const $=id=>document.getElementById(id), fmt=d=>new Intl.DateTimeFormat('fr-CH',{month:'long',year:'numeric'}).format(d);
