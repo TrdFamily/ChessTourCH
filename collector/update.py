@@ -169,8 +169,8 @@ def search_duckduckgo(query):
         headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=10) as response:
         html = response.read(300000).decode("utf-8", "replace")
-    links = re.findall(r'<a[^>]+class=["\\'][^"\\']*result__a[^"\\']*["\\'][^>]+href=["\\']([^"\\']+)', html, re.I)
-    result = []
+    links = re.findall(r'href=["\\']([^"\\']+)["\\'][^>]*class=["\\'][^"\\']*result__a[^"\\']*["\\']|class=["\\'][^"\\']*result__a[^"\\']*["\\'][^>]*href=["\\']([^"\\']+)["\\']', html, re.I)
+    links = [a or b for a, b in links]
     for link in links:
         link = html_unescape(link)
         if "duckduckgo.com/l/" in link:
