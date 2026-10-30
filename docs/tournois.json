@@ -415,20 +415,22 @@
   },
   {
     "id": "ssb-junior-2026-11-22-30-grand-prix-de-payerne",
-    "title": "30è Grand Prix de Payerne",
+    "title": "30e Grand Prix de Payerne 2026 (Mémorial Jean-Paul Rohrbach)",
     "date": "2026-11-22",
     "endDate": "2026-11-22",
-    "city": "",
+    "city": "Payerne",
     "category": "Junior",
     "tempo": "",
     "lat": null,
     "lon": null,
     "adultPrice": null,
     "juniorPrice": null,
-    "registrationUrl": null,
-    "url": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
-    "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
-    "status": "À vérifier auprès de l'organisateur"
+    "registrationUrl": "https://echecs-payerne.ch/grand-prix-de-payerne-2026/",
+    "url": "https://echecs-payerne.ch/grand-prix-de-payerne-2026/",
+    "source": "https://echecs-payerne.ch/grand-prix-de-payerne-2026/",
+    "status": "Site organisateur identifié ; horaires, tarif, lieu et délai à vérifier",
+    "registrationDeadline": null,
+    "registrationDeadlineTime": null
   },
   {
     "id": "ssb-junior-2026-11-22-oberglatter-jugendturnier",
