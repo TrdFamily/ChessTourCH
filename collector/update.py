@@ -274,7 +274,7 @@ def extract_practical_details(event, text, url):
     if event.get("adultPrice") is None and event.get("juniorPrice") is None:
         fee = re.search(
             r"(?:Startgeld|Teilnahmegebühr|Frais d.inscription|Tarif d.inscription|"
-            r"Inscription|Einsatz)\\s*[:–-]?\\s*(?:CHF|SFr\\.?|Fr\\.?)\\s*(\\d{1,3})(?!\\d)",
+            r"Inscription|Einsatz)\s*[:–-]?\s*(?:CHF|SFr\.?|Fr\.?)\s*(\d{1,3})(?!\d)",
             text, re.I)
         if fee:
             details["feeCandidate"] = "CHF " + fee.group(1) + " (catégorie à vérifier)"
