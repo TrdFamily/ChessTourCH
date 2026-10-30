@@ -20,7 +20,7 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "official_page",
     "organizerUrl": "https://www.sprengschach.ch/",
-    "lastAddressScan": "2026-10-30T11:22:08.062888+00:00",
+    "lastAddressScan": "2026-10-30T11:31:22.395990+00:00",
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
@@ -98,7 +98,7 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
-    "lastCandidateSearch": "2026-10-30T10:45:06.634189+00:00",
+    "lastCandidateSearch": "2026-10-30T11:31:15.393633+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
@@ -126,7 +126,7 @@
     "status": "Fiche du tournoi à identifier sur la page de l'organisateur",
     "organizerUrl": "https://mychess.events/event-organizer/schweizer-schach-senioren/",
     "dataQuality": "organizer_only",
-    "lastCandidateSearch": "2026-10-30T10:45:06.906103+00:00",
+    "lastCandidateSearch": "2026-10-30T11:31:16.272261+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
@@ -152,7 +152,7 @@
     "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "dataQuality": "needs_official_page",
-    "lastCandidateSearch": "2026-10-30T10:45:07.110669+00:00",
+    "lastCandidateSearch": "2026-10-30T11:31:17.080963+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "firstSourceType": "discovery",
@@ -261,7 +261,7 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "official_page",
     "eligibility": "Match ETHZ–EPFL (8 joueurs par équipe) et tournoi blitz en ligne ouvert aux membres des deux écoles",
-    "lastAddressScan": "2026-10-30T11:22:08.224655+00:00",
+    "lastAddressScan": "2026-10-30T11:31:22.681413+00:00",
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
@@ -600,7 +600,7 @@
     "source": "https://echecs-payerne.ch/grand-prix-de-payerne-2026/",
     "status": "Adresse de rue publiée par l'organisateur ; numéro et salle exacte à confirmer",
     "dataQuality": "official_page",
-    "lastAddressScan": "2026-10-30T11:22:05.327813+00:00",
+    "lastAddressScan": "2026-10-30T11:31:18.589236+00:00",
     "firstSourceUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
@@ -609,7 +609,44 @@
     "addressSource": "https://echecs-payerne.ch/grand-prix-de-payerne-2026/",
     "addressSourceLocation": "Annonce du 30e Grand Prix de Payerne : mention « Av. du Stade »",
     "addressEvidence": "Av. du Stade",
-    "venue": "Lieu indiqué avenue du Stade (nom de la salle à confirmer)"
+    "venue": "Lieu indiqué avenue du Stade (nom de la salle à confirmer)",
+    "addressCandidates": [
+      {
+        "address": "route de Berne",
+        "evidence": "Se rendre au local de jeu \n\n\n\n \n \n Depuis l’autoroute : Prendre la sortie 27 Payerne de l’A1 \n\n\n\n \n Depuis la route de Berne : Prendre la sortie Payerne \n \n\n\n\n \n L’adresse :  Av. du Stade, 1530 Payerne \n\n\n\n \n \n\n\n\n \n DEUT",
+        "score": 6,
+        "source": "https://echecs-payerne.ch/grand-prix-de-payerne-2026/",
+        "pageLocation": "Page de l'annonce, extrait autour de l'adresse"
+      },
+      {
+        "address": "Av. du Stade, 1530 Payerne",
+        "evidence": "a sortie 27 Payerne de l’A1 \n\n\n\n \n Depuis la route de Berne : Prendre la sortie Payerne \n \n\n\n\n \n L’adresse :  Av. du Stade, 1530 Payerne \n\n\n\n \n \n\n\n\n \n DEUTSCHE VERSION \n\n\n\n \n Der traditionelle «Grand Prix de Payerne, Mem",
+        "score": 6,
+        "source": "https://echecs-payerne.ch/grand-prix-de-payerne-2026/",
+        "pageLocation": "Page de l'annonce, extrait autour de l'adresse"
+      },
+      {
+        "address": "Straße nach Bern",
+        "evidence": "\n\n\n \n Zum Spielort gehen \n\n\n\n \n \n Von der Autobahn: Nehmen Sie die Ausfahrt 27 Payerne der A1. \n\n\n\n \n Von der Straße nach Bern: Nehmen Sie die Ausfahrt Payerne. \n \n\n\n\n \n Die Adresse:  Av. du Stade, 1530 Payerne \n\n \n\n\n\n\n\n",
+        "score": 6,
+        "source": "https://echecs-payerne.ch/grand-prix-de-payerne-2026/",
+        "pageLocation": "Page de l'annonce, extrait autour de l'adresse"
+      },
+      {
+        "address": "Av. du Stade, 1530 Payerne",
+        "evidence": "t 27 Payerne der A1. \n\n\n\n \n Von der Straße nach Bern: Nehmen Sie die Ausfahrt Payerne. \n \n\n\n\n \n Die Adresse:  Av. du Stade, 1530 Payerne \n\n \n\n\n\n\n\n \n\n\t\t\t\t\n\t\t\t \n\n\t\t\t\n\t\t \n\n\t\t\n\n \n\n\t\n\t \n \n\n\t\t \n \n \n ✍ Nous contacter \n \n 🧭 Accè",
+        "score": 6,
+        "source": "https://echecs-payerne.ch/grand-prix-de-payerne-2026/",
+        "pageLocation": "Page de l'annonce, extrait autour de l'adresse"
+      },
+      {
+        "address": "via e-mail à  timothee.gilliand",
+        "evidence": "\n\n \n ➡  Flyer d’information \n ➡  Liste des inscrits \n\n\n\n \n \n \n Inscription en ligne \n \n\n\n\n \n \n\n\n\n \n Contact : via e-mail à  timothee.gilliand[at]echecs-payerne.ch \n\n\n\n \n Se rendre au local de jeu \n\n\n\n \n \n Depuis l’autoro",
+        "score": 4,
+        "source": "https://echecs-payerne.ch/grand-prix-de-payerne-2026/",
+        "pageLocation": "Page de l'annonce, extrait autour de l'adresse"
+      }
+    ]
   },
   {
     "id": "ssb-junior-2026-11-22-oberglatter-jugendturnier",
@@ -1888,7 +1925,9 @@
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
-    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
+    "lastCandidateSearch": "2026-10-30T11:31:09.146867+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-06-05-san-bernardino-2days-open",
@@ -1915,7 +1954,9 @@
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
-    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
+    "lastCandidateSearch": "2026-10-30T11:31:09.801941+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-06-14-sss-laax-2027",
@@ -1941,7 +1982,9 @@
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
-    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
+    "lastCandidateSearch": "2026-10-30T11:31:10.499789+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-06-18-lenzerheide-amateur-2027",
@@ -1968,7 +2011,9 @@
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
-    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
+    "lastCandidateSearch": "2026-10-30T11:31:11.172742+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-07-02-andeer-spa-open",
@@ -1995,7 +2040,9 @@
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
-    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
+    "lastCandidateSearch": "2026-10-30T11:31:11.938272+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-07-10-championnats-suisses-individuels-2027",
@@ -2016,7 +2063,7 @@
     "source": "https://swisschess.ch/fr/news/die-sem-2027-findet-erneut-in-disentis-statt",
     "status": "Dates et lieu confirmés par Swiss Chess; règlement, inscription et adresse postale encore à publier",
     "dataQuality": "official_page",
-    "lastAddressScan": "2026-10-30T11:22:09.035219+00:00",
+    "lastAddressScan": "2026-10-30T11:31:23.596946+00:00",
     "firstSourceUrl": "https://swisschess.ch/fr/news/die-sem-2027-findet-erneut-in-disentis-statt",
     "firstSourceType": "organizer",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
@@ -2041,7 +2088,7 @@
     "status": "Dates 10–23 juillet confirmées par l'organisateur; détails 2027 non publiés",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "official_page",
-    "lastAddressScan": "2026-10-30T11:22:09.535809+00:00",
+    "lastAddressScan": "2026-10-30T11:31:24.241566+00:00",
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
@@ -2070,7 +2117,9 @@
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
-    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
+    "lastCandidateSearch": "2026-10-30T11:31:12.700532+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-09-06-sss-pontresina-2027",
@@ -2096,7 +2145,9 @@
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
-    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
+    "lastCandidateSearch": "2026-10-30T11:31:13.354276+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-10-04-sss-gstaad-2027",
@@ -2122,7 +2173,9 @@
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
-    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré"
+    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
+    "lastCandidateSearch": "2026-10-30T11:31:14.067118+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-12-26-51-zurcher-weihnachtsopen",
@@ -2146,6 +2199,8 @@
     "dataQuality": "needs_official_page",
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
-    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "lastCandidateSearch": "2026-10-30T11:31:14.804381+00:00",
+    "officialCandidates": []
   }
 ]
