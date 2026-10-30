@@ -12,9 +12,9 @@
     "adultPrice": null,
     "juniorPrice": null,
     "registrationUrl": null,
-    "url": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
-    "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
-    "status": "À vérifier auprès de l'organisateur",
+    "url": "https://www.sgwinterthur.ch/wjsm2026/",
+    "source": "https://www.sgwinterthur.ch/wjsm2026/",
+    "status": "Consulter l'annonce de l'organisateur pour horaires et prix",
     "venue": "Kirchgemeindehaus Veltheim",
     "address": "Feldstrasse 6, 8400 Winterthur",
     "addressVerified": true
@@ -35,6 +35,23 @@
     "url": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "status": "À vérifier auprès de l'organisateur"
+  },
+  {
+    "id": "chessmates-degersheim-herbst-r2-2026-11-04",
+    "title": "Degersheimer Herbstturnier, Runde 2",
+    "date": "2026-11-04",
+    "endDate": "2026-11-04",
+    "city": "Degersheim",
+    "venue": "Restaurant Rose",
+    "address": "Bergstrasse 1, 9113 Degersheim",
+    "addressVerified": true,
+    "time": null,
+    "juniorPrice": null,
+    "adultPrice": null,
+    "category": "Adultes",
+    "url": "https://chessmates.live/turniere",
+    "source": "https://chessmates.live/turniere",
+    "status": "Adresse publiée dans le calendrier Chessmates"
   },
   {
     "id": "ssb-junior-2026-11-07-2-qualiturnier-in-lugano",
@@ -180,5 +197,24 @@
     "url": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "status": "À vérifier auprès de l'organisateur"
+  },
+  {
+    "id": "sc-reti-schoenau-rapid-u12-2026-11-29",
+    "title": "3. Schönau Rapidturnier U12",
+    "date": "2026-11-29",
+    "endDate": "2026-11-29",
+    "city": "Zürich",
+    "venue": "Saal der Baugenossenschaft Schönau Zürich",
+    "address": "Schönauring 78, 8052 Zürich",
+    "addressVerified": true,
+    "time": "Contrôle jusqu'à 13h15 ; début 13h30 ; remise des prix vers 17h00",
+    "juniorPrice": 10,
+    "adultPrice": null,
+    "category": "Junior",
+    "tempo": "Rapid, 8 min + 4 sec/coup",
+    "url": "https://www.screti.ch/index.php/jugendschach/schonau-rapidturnier-u12.html",
+    "source": "https://www.screti.ch/index.php/jugendschach/schonau-rapidturnier-u12.html",
+    "registrationUrl": "mailto:roman@schnelli.com",
+    "status": "Annonce de l'organisateur"
   }
 ]
