@@ -394,7 +394,8 @@ def main():
         event["dataQuality"] = "official_page" if event.get("url") else ("organizer_only" if event.get("organizerUrl") else "needs_official_page")
     events = enrich_candidates(events)
     known = sorted([e for e in events if e.get("url") and not e.get("addressVerified")],
-                   key=lambda e: (e.get("lastAddressScan", ""), e.get("date", "")))[:8]
+                   key=lambda e: (0 if "grand prix de payerne" in e.get("title", "").lower() else 1,
+                                  e.get("lastAddressScan", ""), e.get("date", "")))[:8]
     for event in known:
         inspect_known_page(event)
     OUT.parent.mkdir(parents=True, exist_ok=True)
