@@ -80,6 +80,12 @@ def parse(html, today=None):
     # Donnees de l'organisateur et des annonces evenementielles verifiees.
     # Ne jamais deduire une adresse du domicile d'un club ni du centre-ville.
     verified = {
+        "Winterthur: Jugendstadtmeisterschaft": {
+            "city": "Winterthur",
+            "venue": "Kirchgemeindehaus Veltheim",
+            "address": "Feldstrasse 6, 8400 Winterthur",
+            "addressVerified": True,
+        },
         "2. Qualiturnier in Lugano": {
             "date": "2026-11-06", "endDate": "2026-11-08",
             "city": "Lugano", "venue": "Palazzo dei Congressi, salle B",
