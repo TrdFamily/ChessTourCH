@@ -77,6 +77,28 @@ def parse(html, today=None):
         "source": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html",
         "status": "Horaire et lieu confirmés ; prix et inscription à confirmer"
     }]
+    # Donnees de l'organisateur et des annonces evenementielles verifiees.
+    # Ne jamais deduire une adresse du domicile d'un club ni du centre-ville.
+    verified = {
+        "2. Qualiturnier in Lugano": {
+            "date": "2026-11-06", "endDate": "2026-11-08",
+            "city": "Lugano", "venue": "Palazzo dei Congressi, salle B",
+            "address": "Piazza dell'Indipendenza 4, 6900 Lugano",
+            "addressVerified": True, "time": "Vendredi 18h30 ; samedi 9h30 et 14h30 ; dimanche 9h et 13h30",
+            "juniorPrice": 50,
+            "url": "https://swisschess.ch/fr/news/68-november-in-lugano-zweites-quali-turnier-zur-u10u12u14u16u18-meisterschaft-2027",
+            "source": "https://swisschess.ch/fr/news/68-november-in-lugano-zweites-quali-turnier-zur-u10u12u14u16u18-meisterschaft-2027",
+        }
+    }
+    for event in events:
+        for name, details in verified.items():
+            if name.lower() in event["title"].lower():
+                event.update(details)
+    local_events[0].update({
+        "venue": "Halle de gymnastique de Courroux",
+        "address": None, "addressVerified": False,
+        "url": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html"
+    })
     events.extend(event for event in local_events if event["date"] >= today.isoformat())
     return list({event["id"]: event for event in events}.values())
 
