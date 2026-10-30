@@ -138,31 +138,88 @@ def keywords(s):
     s = "".join(x for x in s if not unicodedata.combining(x))
     return set(re.findall(r"[a-z0-9]{4,}", s)) - {"open","chess","schach","2026","2027","turnier","tournoi","rapid","runde"}
 
-def discover_candidates(event):
-    query = event["title"] + " " + event["date"][:4] + " chess tournament organizer"
-    feed = "https://www.bing.com/search?format=rss&q=" + urllib.parse.quote(query)
+BLOCKED_HOSTS = ("chessmates.live", "bing.com", "google.com", "facebook.com",
+                 "instagram.com", "chess-results.com", "swisschess.ch",
+                 "lichess.org", "youtube.com", "wikipedia.org")
+
+def valid_organizer_url(url):
+    from urllib.parse import urlsplit
     try:
-        req = urllib.request.Request(feed, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=12) as response:
-            root = ET.fromstring(response.read(250000))
-    except (OSError, ValueError, ET.ParseError):
-        return []
+        parts = urlsplit(url)
+        host = (parts.hostname or "").lower()
+        return (parts.scheme == "https" and bool(host)
+                and not any(host == x or host.endswith("." + x) for x in BLOCKED_HOSTS)
+                and not re.search(r"/(turniere|tournois|calendar|kalender|events)/?$", parts.path, re.I))
+    except ValueError:
+        return False
+
+def search_bing(query):
+    feed = "https://www.bing.com/search?format=rss&q=" + urllib.parse.quote(query)
+    req = urllib.request.Request(feed, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=10) as response:
+        root = ET.fromstring(response.read(250000))
+    return [(x.findtext("link") or "", x.findtext("title") or "")
+            for x in root.findall(".//item")]
+
+def search_duckduckgo(query):
+    """Second discovery provider: decode outbound links, never trust snippets as evidence."""
+    from urllib.parse import parse_qs, urlsplit, unquote
+    req = urllib.request.Request(
+        "https://html.duckduckgo.com/html/?q=" + urllib.parse.quote(query),
+        headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=10) as response:
+        html = response.read(300000).decode("utf-8", "replace")
+    links = re.findall(r'<a[^>]+class=["\\'][^"\\']*result__a[^"\\']*["\\'][^>]+href=["\\']([^"\\']+)', html, re.I)
     result = []
-    base = keywords(event["title"])
-    for item in root.findall(".//item"):
-        url = item.findtext("link") or ""
-        title = item.findtext("title") or ""
-        snippet = item.findtext("description") or ""
-        if not url.startswith("https://") or any(x in url.lower() for x in ("chessmates.live","bing.com","google.com","facebook.com","instagram.com")):
-            continue
-        if len(base & keywords(title + " " + snippet)) < min(2,len(base)):
-            continue
-        if event["date"][:4] not in (title + " " + snippet + " " + url):
-            continue
-        result.append({"url":url,"title":title})
-        if len(result) >= 3:
-            break
+    for link in links:
+        link = html_unescape(link)
+        if "duckduckgo.com/l/" in link:
+            link = parse_qs(urlsplit(link).query).get("uddg", [""])[0]
+        result.append((unquote(link), ""))
     return result
+
+def html_unescape(value):
+    from html import unescape
+    return unescape(value)
+
+def discover_candidates(event):
+    """Search original-language names across two providers and rank potential organizers."""
+    title = re.sub(r"\\s+", " ", event["title"]).strip()
+    year = event["date"][:4]
+    city = (event.get("city") or "").strip()
+    queries = [
+        f'"{title}" {year}',
+        f'{title} {year} {city} anmeldung inscription',
+        f'{title} {year} schach échecs torneo'
+    ]
+    base = keywords(title)
+    found = {}
+    for query in queries:
+        for provider in (search_bing, search_duckduckgo):
+            try:
+                results = provider(query)
+            except (OSError, ValueError, ET.ParseError):
+                continue
+            for url, label in results:
+                if not valid_organizer_url(url):
+                    continue
+                from urllib.parse import urlsplit
+                slug = urllib.parse.unquote(urlsplit(url).path.replace("-", " ").replace("_", " "))
+                matched = len(base & keywords(label + " " + slug))
+                if base and matched < min(1, len(base)):
+                    continue
+                score = matched * 3
+                if year in (label + url):
+                    score += 2
+                if city and keywords(city) & keywords(label + url):
+                    score += 1
+                found[url] = max(score, found.get(url, 0))
+            if len(found) >= 8:
+                break
+        if len(found) >= 8:
+            break
+    return [{"url": url, "title": "Candidat à vérifier", "score": score}
+            for url, score in sorted(found.items(), key=lambda pair: -pair[1])[:6]]
 
 class PageText(HTMLParser):
     """Extract visible text and safe absolute registration links."""
@@ -194,11 +251,9 @@ class PageText(HTMLParser):
 def inspect_candidate(event, url):
     """Only promote a result if the actual page corroborates the edition and title."""
     from urllib.parse import urljoin, urlsplit
-    if not url.startswith("https://"):
+    if not valid_organizer_url(url):
         return None
     host = urlsplit(url).hostname or ""
-    if host in ("chessmates.live", "www.google.com", "www.bing.com") or "facebook.com" in host:
-        return None
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 ChessTourCH/0.5"})
         with urllib.request.urlopen(req, timeout=10) as response:
