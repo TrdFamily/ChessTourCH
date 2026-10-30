@@ -7,6 +7,9 @@ on:
       - '.github/workflows/refresh.yml'
   schedule:
     - cron: '25 */6 * * *'
+concurrency:
+  group: chesstour-calendar-refresh
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -29,7 +32,8 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "Actualiser calendrier"
             for attempt in 1 2 3; do
-              git pull --rebase origin main && git push origin HEAD:main && exit 0
+              (git pull --rebase origin main && git push origin HEAD:main) && exit 0
+              git rebase --abort || true
               sleep 3
             done
             echo "Impossible de publier après trois tentatives" >&2
