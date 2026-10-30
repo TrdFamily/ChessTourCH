@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.os.Build
 import android.view.WindowInsets
 import android.view.View
+import android.widget.FrameLayout
 import android.content.Intent
 import android.webkit.WebView
 import android.webkit.WebViewClient
@@ -31,10 +32,17 @@ class MainActivity : Activity() {
                 return true
             }
         }
-        // Android 15 impose l'affichage bord-a-bord : reserver la zone systeme.
+        // The WebView must occupy only the safe area, not the status/navigation bars.
+        // Padding the WebView itself does not reliably move HTML on Samsung devices.
+        val root = FrameLayout(this)
+        root.setBackgroundColor(android.graphics.Color.rgb(245, 247, 250))
+        root.addView(web, FrameLayout.LayoutParams(
+            FrameLayout.LayoutParams.MATCH_PARENT,
+            FrameLayout.LayoutParams.MATCH_PARENT
+        ))
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
             window.setDecorFitsSystemWindows(false)
-            web.setOnApplyWindowInsetsListener { view, insets ->
+            root.setOnApplyWindowInsetsListener { view, insets ->
                 val bars = insets.getInsets(WindowInsets.Type.systemBars())
                 view.setPadding(0, bars.top, 0, bars.bottom)
                 insets
@@ -44,9 +52,9 @@ class MainActivity : Activity() {
             window.decorView.systemUiVisibility = 0
         }
         window.statusBarColor = android.graphics.Color.rgb(36, 59, 83)
-        setContentView(web)
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) web.requestApplyInsets()
-        web.loadUrl("https://trdfamily.github.io/ChessTourCH/?app=0.8")
+        setContentView(root)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) root.requestApplyInsets()
+        web.loadUrl("https://trdfamily.github.io/ChessTourCH/?app=0.9")
     }
     override fun onBackPressed() {
         if (web.canGoBack()) web.goBack() else super.onBackPressed()
