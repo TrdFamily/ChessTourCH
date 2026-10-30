@@ -14,9 +14,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-10-30-lugano-open",
@@ -33,9 +34,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "ssb-junior-2026-10-31-winterthur-jugendstadtmeisterschaft",
@@ -72,9 +74,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-11-02-bern-seniorenturnier",
@@ -108,9 +111,10 @@
     "adultPrice": null,
     "juniorPrice": null,
     "registrationUrl": null,
-    "url": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "url": null,
     "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
-    "status": "À vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere"
   },
   {
     "id": "chessmates-degersheim-herbst-r2-2026-11-04",
@@ -125,9 +129,11 @@
     "juniorPrice": null,
     "adultPrice": null,
     "category": "Adultes",
-    "url": "https://chessmates.live/turniere",
+    "url": null,
     "source": "https://chessmates.live/turniere",
-    "status": "Adresse publiée dans le calendrier Chessmates"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/turniere",
+    "registrationUrl": null
   },
   {
     "id": "multi-2026-11-04-8-seebach-friends-rapid-open",
@@ -144,9 +150,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "ssb-junior-2026-11-07-2-qualiturnier-in-lugano",
@@ -184,9 +191,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-11-07-10-steinbock-open",
@@ -203,9 +211,9 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
-    "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "url": "https://schachclub-chur.ch/turniere/",
+    "source": "https://schachclub-chur.ch/turniere/",
+    "status": "Page des tournois du club organisateur ; lien direct à l'édition à confirmer"
   },
   {
     "id": "multi-2026-11-07-oplenac-basel-blitz-open",
@@ -222,9 +230,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "courroux-echecs-aux-loups-2026-11-08",
@@ -264,9 +273,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "ssb-junior-2026-11-15-trubschachen-jugend-grand-prix",
@@ -281,9 +291,10 @@
     "adultPrice": null,
     "juniorPrice": null,
     "registrationUrl": null,
-    "url": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "url": null,
     "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
-    "status": "À vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere"
   },
   {
     "id": "ssb-junior-2026-11-15-nyon-galactic-games",
@@ -298,9 +309,10 @@
     "adultPrice": null,
     "juniorPrice": null,
     "registrationUrl": null,
-    "url": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "url": null,
     "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
-    "status": "À vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere"
   },
   {
     "id": "multi-2026-11-15-otto-burkhalter-gedenkturnier",
@@ -317,9 +329,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-11-16-luzerner-senioren-open",
@@ -336,9 +349,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-11-18-degersheimer-herbstturnier-runde-4",
@@ -355,9 +369,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-11-19-schachstadt-in-der-uni-blitz-turnie",
@@ -374,9 +389,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "ssb-junior-2026-11-21-2-runde-z-richsee-jugend-gp",
@@ -391,9 +407,10 @@
     "adultPrice": null,
     "juniorPrice": null,
     "registrationUrl": null,
-    "url": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "url": null,
     "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
-    "status": "À vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere"
   },
   {
     "id": "multi-2026-11-21-ch-l-sungsmeisterschaft-bern",
@@ -410,9 +427,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "ssb-junior-2026-11-22-30-grand-prix-de-payerne",
@@ -446,9 +464,10 @@
     "adultPrice": null,
     "juniorPrice": null,
     "registrationUrl": null,
-    "url": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "url": null,
     "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
-    "status": "À vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere"
   },
   {
     "id": "ssb-junior-2026-11-22-junioren-vierwaldst-ttersee-gp",
@@ -463,9 +482,10 @@
     "adultPrice": null,
     "juniorPrice": null,
     "registrationUrl": null,
-    "url": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "url": null,
     "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
-    "status": "À vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere"
   },
   {
     "id": "multi-2026-11-22-18-glarner-schachtag",
@@ -482,9 +502,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-11-22-rheintalische-einzelmeisterschaft-s",
@@ -501,9 +522,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-11-25-degersheimer-herbstturnier-runde-5",
@@ -520,9 +542,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-11-27-open-du-jura-2026",
@@ -539,9 +562,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-11-27-davos-new-ski-open",
@@ -558,9 +582,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-11-28-steckborn-jugendschachturnier",
@@ -577,9 +602,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "sc-reti-schoenau-rapid-u12-2026-11-29",
@@ -615,9 +641,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-11-30-bad-ragaz-seniorenturnier",
@@ -653,9 +680,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-12-05-biel-2-freestyle-rapidturnier",
@@ -672,9 +700,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-12-05-9-soorser-blitzmeisterschaft",
@@ -691,9 +720,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-12-05-schaffhausen-2days-open",
@@ -710,9 +740,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-12-06-schweizer-rapidmeisterschaft-u8",
@@ -729,9 +760,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-12-07-rapidschach-schachclub-z-rich-h-ngg",
@@ -748,9 +780,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-12-26-50-zuercher-weihnachtsopen",
@@ -767,9 +800,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "multi-2026-12-26-basel-xmas-festival",
@@ -786,9 +820,10 @@
     "juniorPrice": null,
     "tempo": "",
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; lieu exact et tarifs à vérifier auprès de l'organisateur"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-01-01-29-hotel-meielisalp-open",
@@ -805,9 +840,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-01-06-open-international-d-echecs-de-neuchatel-u200",
@@ -824,9 +860,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-01-08-schaffhausen-new-year-chess-open-2027",
@@ -839,13 +876,16 @@
     "address": "Kirchhofplatz 7, 8200 Schaffhausen",
     "addressVerified": true,
     "time": null,
-    "adultPrice": null,
-    "juniorPrice": null,
-    "registrationDeadline": null,
-    "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
-    "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "adultPrice": 100,
+    "juniorPrice": 80,
+    "registrationDeadline": "2027-01-07",
+    "registrationUrl": "https://www.swisschesstour.com/1/schaffhausen_new_year_3235077.html",
+    "url": "https://www.swisschesstour.com/1/schaffhausen_new_year_3235077.html",
+    "source": "https://www.swisschesstour.com/1/schaffhausen_new_year_3235077.html",
+    "status": "Annonce de l'organisateur identifiée ; tarifs et délai recoupés",
+    "registrationDeadlineTime": "16:00",
+    "registrationDeadlineNote": "Clôture en ligne ; inscription sur place possible selon disponibilités",
+    "tempo": "90 min + 30 sec/coup"
   },
   {
     "id": "calendar-2027-2027-01-11-sss-zurich-1-2027",
@@ -862,9 +902,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-01-15-3-qualiturnier-2027",
@@ -881,9 +922,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-01-24-international-solving-contest",
@@ -900,9 +942,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-01-24-jgp3-einsiedeln",
@@ -919,9 +962,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-01-29-tournoi-blitz-nyon",
@@ -938,9 +982,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-01-30-echecs-et-mets",
@@ -957,9 +1002,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-01-30-tournoi-nyon",
@@ -976,9 +1022,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-02-07-38e-open-rapide-du-ceg",
@@ -995,9 +1042,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-02-08-sss-zurich-2-2027",
@@ -1014,9 +1062,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-02-12-25-stadthaus-open",
@@ -1033,9 +1082,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-02-27-lugano-paradiso-memorial-picchi",
@@ -1052,9 +1102,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-03-05-basel-spring-open-2027",
@@ -1071,9 +1122,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-03-14-sss-mendrisio-2027",
@@ -1090,9 +1142,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-03-19-open-de-la-broye",
@@ -1109,9 +1162,9 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
-    "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "url": "https://echecs-payerne.ch/",
+    "source": "https://echecs-payerne.ch/",
+    "status": "Site du club organisateur identifié ; page spécifique 2027 non vérifiée"
   },
   {
     "id": "calendar-2027-2027-03-19-open-de-la-broye-junior",
@@ -1128,9 +1181,9 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
-    "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "url": "https://echecs-payerne.ch/",
+    "source": "https://echecs-payerne.ch/",
+    "status": "Site du club organisateur identifié ; page spécifique 2027 non vérifiée"
   },
   {
     "id": "calendar-2027-2027-03-19-4-qualiturnier-2027",
@@ -1147,9 +1200,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-03-24-swiss-young-masters-2027",
@@ -1166,9 +1220,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-04-03-toggenburger-rapidmeisterschaft",
@@ -1185,9 +1240,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-04-04-sjrm",
@@ -1204,9 +1260,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-04-09-locarno-swiss-lake-open",
@@ -1223,9 +1280,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-04-11-sss-lausanne-2027",
@@ -1242,9 +1300,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-04-23-80-thuner-stadtmeisterschaft",
@@ -1261,9 +1320,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-04-30-4-letzi-open",
@@ -1272,17 +1332,19 @@
     "endDate": "2027-05-02",
     "city": "Zürich",
     "category": "Adultes",
-    "venue": null,
-    "address": null,
-    "addressVerified": false,
-    "time": null,
-    "adultPrice": null,
-    "juniorPrice": null,
-    "registrationDeadline": null,
-    "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
-    "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "venue": "Gemeinschaftszentrum Loogarten",
+    "address": "Salzweg 1, 8048 Zürich",
+    "addressVerified": true,
+    "time": "Vendredi 30 avril : contrôle 17h–18h15, rondes rapides dès 18h30 ; samedi et dimanche dès 10h",
+    "adultPrice": 80,
+    "juniorPrice": 50,
+    "registrationDeadline": "2027-04-25",
+    "registrationUrl": "https://open.scletzi.ch/",
+    "url": "https://open.scletzi.ch/",
+    "source": "https://open.scletzi.ch/",
+    "status": "Détails vérifiés sur le site du club organisateur",
+    "registrationDeadlineNote": "Date limite de paiement pour dispense du contrôle de présence, pas une fermeture définitive des inscriptions",
+    "tempo": "3 rondes rapides 10+5 ; 4 rondes classiques 90+30"
   },
   {
     "id": "calendar-2027-2027-04-30-serpiano-weekend-open",
@@ -1299,9 +1361,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-05-02-therwil-youth-team-tournament",
@@ -1318,9 +1381,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-05-06-bundesturnier-2027",
@@ -1337,9 +1401,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-06-05-san-bernardino-2days-open",
@@ -1356,9 +1421,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-06-14-sss-laax-2027",
@@ -1375,9 +1441,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-06-18-lenzerheide-amateur-2027",
@@ -1394,9 +1461,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-07-02-andeer-spa-open",
@@ -1413,9 +1481,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-07-10-championnats-suisses-individuels-2027",
@@ -1451,9 +1520,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-08-02-sss-adelboden-2027",
@@ -1470,9 +1540,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-09-06-sss-pontresina-2027",
@@ -1489,9 +1560,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-10-04-sss-gstaad-2027",
@@ -1508,9 +1580,10 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   },
   {
     "id": "calendar-2027-2027-12-26-51-zurcher-weihnachtsopen",
@@ -1527,8 +1600,9 @@
     "juniorPrice": null,
     "registrationDeadline": null,
     "registrationUrl": null,
-    "url": "https://chessmates.live/fr/tournois-echecs",
+    "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Date publiée ; détails et inscriptions à vérifier"
+    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "discoveryUrl": "https://chessmates.live/fr/tournois-echecs"
   }
 ]
