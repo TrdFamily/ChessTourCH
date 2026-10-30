@@ -103,8 +103,8 @@ def parse(html, today=None):
             if name.lower() in event["title"].lower():
                 event.update(details)
     local_events[0].update({
-        "venue": "Halle de gymnastique de Courroux",
-        "address": None, "addressVerified": False,
+        "venue": "Halle de gymnastique Général-Guisan",
+        "address": "Rue du Général-Guisan 3, 2822 Courroux", "addressVerified": True,
         "url": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html"
     })
     # Annonces de clubs hors liste federale, verifiees sur leurs pages.
