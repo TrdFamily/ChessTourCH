@@ -2,6 +2,8 @@ package ch.chesstour.app
 
 import android.app.Activity
 import android.os.Bundle
+import android.os.Build
+import android.view.WindowInsets
 import android.content.Intent
 import android.webkit.WebView
 import android.webkit.WebViewClient
@@ -28,8 +30,16 @@ class MainActivity : Activity() {
                 return true
             }
         }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            web.setOnApplyWindowInsetsListener { view, insets ->
+                val top = insets.getInsets(WindowInsets.Type.statusBars()).top
+                view.setPadding(0, top, 0, 0)
+                insets
+            }
+        }
+        window.statusBarColor = android.graphics.Color.rgb(36, 59, 83)
         setContentView(web)
-        web.loadUrl("https://trdfamily.github.io/ChessTourCH/?app=0.6")
+        web.loadUrl("https://trdfamily.github.io/ChessTourCH/?app=0.7")
     }
     override fun onBackPressed() {
         if (web.canGoBack()) web.goBack() else super.onBackPressed()
