@@ -19,7 +19,8 @@
     "status": "Annonce publiée sur le site du club; lien direct de l'inscription à identifier",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "official_page",
-    "organizerUrl": "https://www.sprengschach.ch/"
+    "organizerUrl": "https://www.sprengschach.ch/",
+    "lastAddressScan": "2026-10-30T11:20:58.170318+00:00"
   },
   {
     "id": "multi-2026-10-30-lugano-open",
@@ -220,7 +221,8 @@
     "status": "Site officiel de l'organisateur vérifié; pas un open public ordinaire",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "official_page",
-    "eligibility": "Match ETHZ–EPFL (8 joueurs par équipe) et tournoi blitz en ligne ouvert aux membres des deux écoles"
+    "eligibility": "Match ETHZ–EPFL (8 joueurs par équipe) et tournoi blitz en ligne ouvert aux membres des deux écoles",
+    "lastAddressScan": "2026-10-30T11:20:58.535129+00:00"
   },
   {
     "id": "multi-2026-11-07-10-steinbock-open",
@@ -513,7 +515,8 @@
     "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "source": "https://echecs-payerne.ch/grand-prix-de-payerne-2026/",
     "status": "Site organisateur identifié ; horaires, tarif, lieu et délai à vérifier",
-    "dataQuality": "official_page"
+    "dataQuality": "official_page",
+    "lastAddressScan": "2026-10-30T11:20:59.716638+00:00"
   },
   {
     "id": "ssb-junior-2026-11-22-oberglatter-jugendturnier",
@@ -670,7 +673,7 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
-    "lastCandidateSearch": "",
+    "lastCandidateSearch": "2026-10-30T11:20:42.436550+00:00",
     "officialCandidates": []
   },
   {
@@ -1060,7 +1063,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:20:43.321367+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-01-24-international-solving-contest",
@@ -1081,7 +1086,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:20:44.318961+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-01-24-jgp3-einsiedeln",
@@ -1102,7 +1109,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:20:45.230190+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-01-29-tournoi-blitz-nyon",
@@ -1123,7 +1132,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:20:46.113403+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-01-30-echecs-et-mets",
@@ -1144,7 +1155,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:20:46.992047+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-01-30-tournoi-nyon",
@@ -1165,7 +1178,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:20:47.899045+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-02-07-38e-open-rapide-du-ceg",
@@ -1186,7 +1201,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:20:48.769238+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-02-08-sss-zurich-2-2027",
@@ -1207,7 +1224,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:20:49.657499+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-02-12-25-stadthaus-open",
@@ -1228,7 +1247,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Adresse postale exacte du tournoi non vérifiée; ne pas confondre avec l'adresse de l'hôtel Stadthaus",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:20:50.550647+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-02-27-lugano-paradiso-memorial-picchi",
@@ -1250,7 +1271,9 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "organizer_only",
-    "organizerUrl": "https://www.swisschesstour.com/"
+    "organizerUrl": "https://www.swisschesstour.com/",
+    "lastCandidateSearch": "2026-10-30T11:20:51.470129+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-03-05-basel-spring-open-2027",
@@ -1271,7 +1294,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:20:52.347425+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-03-14-sss-mendrisio-2027",
@@ -1675,7 +1700,8 @@
     "url": "https://swisschess.ch/fr/news/die-sem-2027-findet-erneut-in-disentis-statt",
     "source": "https://swisschess.ch/fr/news/die-sem-2027-findet-erneut-in-disentis-statt",
     "status": "Dates et lieu confirmés par Swiss Chess; règlement, inscription et adresse postale encore à publier",
-    "dataQuality": "official_page"
+    "dataQuality": "official_page",
+    "lastAddressScan": "2026-10-30T11:21:00.540691+00:00"
   },
   {
     "id": "calendar-2027-2027-07-10-festival-international-d-echecs-de-bienne-202",
@@ -1696,7 +1722,8 @@
     "source": "https://www.bielchessfestival.ch/fr/Homepage.html",
     "status": "Dates 10–23 juillet confirmées par l'organisateur; détails 2027 non publiés",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "official_page"
+    "dataQuality": "official_page",
+    "lastAddressScan": "2026-10-30T11:21:01.156417+00:00"
   },
   {
     "id": "calendar-2027-2027-08-02-sss-adelboden-2027",
