@@ -1,6 +1,10 @@
 name: Actualiser les tournois
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'collector/update.py'
+      - '.github/workflows/refresh.yml'
   schedule:
     - cron: '25 */6 * * *'
 permissions:
