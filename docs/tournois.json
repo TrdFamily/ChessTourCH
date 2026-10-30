@@ -56,6 +56,7 @@
     "juniorPrice": null,
     "registrationUrl": null,
     "url": "https://www.sgwinterthur.ch/wjsm2026/",
+    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "source": "https://www.sgwinterthur.ch/wjsm2026/",
     "status": "Consulter l'annonce de l'organisateur pour horaires et prix",
     "venue": "Kirchgemeindehaus Veltheim",
@@ -82,7 +83,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T10:45:06.634189+00:00",
+    "officialCandidates": []
   },
   {
     "id": "multi-2026-11-02-bern-seniorenturnier",
@@ -103,7 +106,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Fiche du tournoi à identifier sur la page de l'organisateur",
     "organizerUrl": "https://mychess.events/event-organizer/schweizer-schach-senioren/",
-    "dataQuality": "organizer_only"
+    "dataQuality": "organizer_only",
+    "lastCandidateSearch": "2026-10-30T10:45:06.906103+00:00",
+    "officialCandidates": []
   },
   {
     "id": "ssb-junior-2026-11-04-basel-schachstadt-im-kleinen-wassermann-kinde",
@@ -119,10 +124,12 @@
     "juniorPrice": null,
     "registrationUrl": null,
     "url": null,
+    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
-    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T10:45:07.110669+00:00",
+    "officialCandidates": []
   },
   {
     "id": "chessmates-degersheim-herbst-r2-2026-11-04",
@@ -137,12 +144,14 @@
     "juniorPrice": null,
     "adultPrice": null,
     "category": "Adultes",
+    "tempo": "",
     "url": null,
+    "discoveryUrl": "https://chessmates.live/turniere",
     "source": "https://chessmates.live/turniere",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
-    "discoveryUrl": "https://chessmates.live/turniere",
-    "registrationUrl": null,
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T10:45:07.277144+00:00",
+    "officialCandidates": []
   },
   {
     "id": "multi-2026-11-04-8-seebach-friends-rapid-open",
@@ -164,7 +173,9 @@
     "status": "Diffusion et programme confirmés; annonce du club à identifier",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "organizer_only",
-    "organizerUrl": "https://lichess.org/broadcast/8-seebach-friends-rapid-open/round-1/FYvxi28Q"
+    "organizerUrl": "https://lichess.org/broadcast/8-seebach-friends-rapid-open/round-1/FYvxi28Q",
+    "lastCandidateSearch": "2026-10-30T10:45:07.490626+00:00",
+    "officialCandidates": []
   },
   {
     "id": "ssb-junior-2026-11-07-2-qualiturnier-in-lugano",
@@ -180,6 +191,7 @@
     "juniorPrice": 50,
     "registrationUrl": null,
     "url": "https://swisschess.ch/fr/news/68-november-in-lugano-zweites-quali-turnier-zur-u10u12u14u16u18-meisterschaft-2027",
+    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "source": "https://swisschess.ch/fr/news/68-november-in-lugano-zweites-quali-turnier-zur-u10u12u14u16u18-meisterschaft-2027",
     "status": "À vérifier auprès de l'organisateur",
     "venue": "Palazzo dei Congressi, salle B",
@@ -229,7 +241,9 @@
     "source": "https://schachclub-chur.ch/turniere/",
     "status": "Page des tournois du club, annonce de cette édition non vérifiée",
     "organizerUrl": "https://schachclub-chur.ch/turniere/",
-    "dataQuality": "organizer_only"
+    "dataQuality": "organizer_only",
+    "lastCandidateSearch": "2026-10-30T10:45:07.655118+00:00",
+    "officialCandidates": []
   },
   {
     "id": "multi-2026-11-07-oplenac-basel-blitz-open",
@@ -250,7 +264,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T10:45:07.858738+00:00",
+    "officialCandidates": []
   },
   {
     "id": "courroux-echecs-aux-loups-2026-11-08",
@@ -268,13 +284,16 @@
     "adultPrice": null,
     "juniorPrice": null,
     "registrationUrl": null,
-    "url": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html",
+    "url": null,
+    "discoveryUrl": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html",
     "source": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html",
     "status": "Horaire et lieu confirmés ; prix et inscription à confirmer",
     "venue": "Halle de gymnastique Général-Guisan",
     "addressVerified": true,
     "locationSource": "https://www.courroux.ch/fr/Visiter/Points-d-interets-1/Halle-de-gymnastique.html",
-    "dataQuality": "official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T10:45:08.053441+00:00",
+    "officialCandidates": []
   },
   {
     "id": "multi-2026-11-11-degersheimer-herbstturnier-runde-3",
@@ -295,7 +314,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T10:45:08.242054+00:00",
+    "officialCandidates": []
   },
   {
     "id": "ssb-junior-2026-11-15-trubschachen-jugend-grand-prix",
@@ -311,10 +332,12 @@
     "juniorPrice": null,
     "registrationUrl": null,
     "url": null,
+    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
-    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T10:45:08.412675+00:00",
+    "officialCandidates": []
   },
   {
     "id": "ssb-junior-2026-11-15-nyon-galactic-games",
@@ -330,10 +353,12 @@
     "juniorPrice": null,
     "registrationUrl": null,
     "url": null,
+    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
-    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T10:45:08.596110+00:00",
+    "officialCandidates": []
   },
   {
     "id": "multi-2026-11-15-otto-burkhalter-gedenkturnier",
@@ -354,7 +379,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T10:45:08.805262+00:00",
+    "officialCandidates": []
   },
   {
     "id": "multi-2026-11-16-luzerner-senioren-open",
@@ -433,9 +460,9 @@
     "juniorPrice": null,
     "registrationUrl": null,
     "url": null,
+    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
-    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "dataQuality": "needs_official_page"
   },
   {
@@ -473,10 +500,9 @@
     "juniorPrice": null,
     "registrationUrl": null,
     "url": "https://echecs-payerne.ch/grand-prix-de-payerne-2026/",
+    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "source": "https://echecs-payerne.ch/grand-prix-de-payerne-2026/",
     "status": "Site organisateur identifié ; horaires, tarif, lieu et délai à vérifier",
-    "registrationDeadline": null,
-    "registrationDeadlineTime": null,
     "dataQuality": "official_page"
   },
   {
@@ -493,9 +519,9 @@
     "juniorPrice": null,
     "registrationUrl": null,
     "url": null,
+    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
-    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "dataQuality": "needs_official_page"
   },
   {
@@ -512,9 +538,9 @@
     "juniorPrice": null,
     "registrationUrl": null,
     "url": null,
+    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
-    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
     "dataQuality": "needs_official_page"
   },
   {
