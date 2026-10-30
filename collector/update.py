@@ -348,8 +348,19 @@ def inspect_known_page(event):
             continue
     candidates.sort(key=lambda x: -x["score"])
     if candidates:
+        for candidate in candidates:
+            candidate.setdefault("source", url)
+            candidate["pageLocation"] = ("Première page du PDF" if "#page=1" in candidate["source"]
+                                         else "Page de l'annonce, extrait autour de l'adresse")
         event["addressCandidates"] = candidates[:5]
-        # Avoid publishing an unverified address: review the page evidence first.
+        best = candidates[0]
+        if not event.get("address") and best["score"] >= 3 and (
+            not event.get("city") or event["city"].lower() in best["evidence"].lower()
+        ):
+            event["addressProvisional"] = best["address"]
+            event["addressSource"] = best["source"]
+            event["addressSourceLocation"] = best["pageLocation"]
+            event["addressEvidence"] = best["evidence"]
     event["lastAddressScan"] = datetime.now(timezone.utc).isoformat()
 
 def enrich_candidates(events):
@@ -393,6 +404,13 @@ def main():
             event["url"] = None
         event["dataQuality"] = "official_page" if event.get("url") else ("organizer_only" if event.get("organizerUrl") else "needs_official_page")
     events = enrich_candidates(events)
+    for event in events:
+        event["firstSourceUrl"] = event.get("firstSourceUrl") or event.get("discoveryUrl") or event.get("source") or event.get("url")
+        event["firstSourceType"] = ("organizer" if event.get("url") and event["firstSourceUrl"] == event["url"] else "discovery")
+        event.setdefault("sourceLocation", "Annonce ou entrée du calendrier ; passage exact non repéré")
+        if event.get("address") and event.get("addressVerified"):
+            event.setdefault("addressSource", event.get("url") or event.get("source"))
+            event.setdefault("addressSourceLocation", "Annonce du tournoi ; passage exact non repéré")
     known = sorted([e for e in events if e.get("url") and not e.get("addressVerified")],
                    key=lambda e: (0 if "grand prix de payerne" in e.get("title", "").lower() else 1,
                                   e.get("lastAddressScan", ""), e.get("date", "")))[:8]
