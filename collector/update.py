@@ -179,7 +179,7 @@ def html_unescape(value):
 
 def discover_candidates(event):
     """Search original-language names across two providers and rank potential organizers."""
-    title = re.sub(r"\\s+", " ", event["title"]).strip()
+    title = re.sub(r"\s+", " ", event["title"]).strip()
     year = event["date"][:4]
     city = (event.get("city") or "").strip()
     queries = [
@@ -397,22 +397,37 @@ def inspect_known_page(event):
     event["lastAddressScan"] = datetime.now(timezone.utc).isoformat()
 
 def enrich_candidates(events):
-    # Persist per-event search attempts in JSON, so the workflow does not retry
-    # the same first twenty events after each fresh GitHub Actions checkout.
-    unresolved = [e for e in events if not e.get("url")]
-    batch = sorted(unresolved, key=lambda e: (e.get("lastCandidateSearch", ""), e.get("date", "")))[:12]
+    """Rotate through ALL incomplete events across runs, including existing records.
+
+    Persist attempts; avoid retrying the same events every six hours.
+    A discovery result must be checked against the exact event date before promotion.
+    """
+    now = datetime.now(timezone.utc).isoformat()
+    incomplete = [e for e in events if not e.get("url") or not e.get("time")
+                  or not e.get("address") or (e.get("adultPrice") is None
+                  and e.get("juniorPrice") is None)]
+    batch = sorted(incomplete, key=lambda e: (e.get("lastDeepResearch", ""),
+                                                e.get("date", "")))[:14]
     for event in batch:
-        found = discover_candidates(event)
-        event["lastCandidateSearch"] = datetime.now(timezone.utc).isoformat()
-        event["officialCandidates"] = found
-        for candidate in found:
-            verified = inspect_candidate(event, candidate["url"])
-            if verified:
-                # Keep an existing registration URL; never overwrite verified data.
-                for key, value in verified.items():
-                    if not event.get(key):
-                        event[key] = value
-                break
+        event["lastDeepResearch"] = now
+        try:
+            # Discover even when a general organizer URL is known: seek the event page.
+            if not event.get("url"):
+                found = discover_candidates(event)
+                event["officialCandidates"] = found
+                event["lastCandidateSearch"] = now
+                for candidate in found:
+                    verified = inspect_candidate(event, candidate["url"])
+                    if verified:
+                        for key, value in verified.items():
+                            if not event.get(key):
+                                event[key] = value
+                        break
+            # Inspect the verified page in the same run, including linked PDFs.
+            if event.get("url"):
+                inspect_known_page(event)
+        except Exception as exc:
+            event["lastDeepResearchError"] = str(exc)[:180]
     return events
 
 def main():
@@ -444,11 +459,6 @@ def main():
         if event.get("address") and event.get("addressVerified"):
             event.setdefault("addressSource", event.get("url") or event.get("source"))
             event.setdefault("addressSourceLocation", "Annonce du tournoi ; passage exact non repéré")
-    known = sorted([e for e in events if e.get("url") and (not e.get("addressVerified") or not e.get("time"))],
-                   key=lambda e: (0 if "grand prix de payerne" in e.get("title", "").lower() else 1,
-                                  e.get("lastAddressScan", ""), e.get("date", "")))[:8]
-    for event in known:
-        inspect_known_page(event)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(events, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     metadata = {"updatedAt": datetime.now(timezone.utc).isoformat(), "eventCount": len(events)}
