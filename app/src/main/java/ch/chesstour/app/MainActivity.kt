@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.content.Intent
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import android.webkit.WebSettings
 import android.webkit.WebResourceRequest
 
 class MainActivity : Activity() {
@@ -14,6 +15,7 @@ class MainActivity : Activity() {
         web = WebView(this)
         web.settings.javaScriptEnabled = true
         web.settings.domStorageEnabled = true
+        web.settings.cacheMode = WebSettings.LOAD_NO_CACHE
         web.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(view: WebView?, request: WebResourceRequest?): Boolean {
                 val url = request?.url ?: return false
@@ -27,7 +29,7 @@ class MainActivity : Activity() {
             }
         }
         setContentView(web)
-        web.loadUrl("https://trdfamily.github.io/ChessTourCH/")
+        web.loadUrl("https://trdfamily.github.io/ChessTourCH/?app=0.6")
     }
     override fun onBackPressed() {
         if (web.canGoBack()) web.goBack() else super.onBackPressed()
