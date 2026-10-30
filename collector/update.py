@@ -451,6 +451,8 @@ def main():
         inspect_known_page(event)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(events, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    metadata = {"updatedAt": datetime.now(timezone.utc).isoformat(), "eventCount": len(events)}
+    (OUT.parent / "mise-a-jour.json").write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"{len(events)} annonces juniors collectées")
 
 if __name__ == "__main__":
