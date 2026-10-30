@@ -311,6 +311,30 @@ def extract_address_candidates(text, city=""):
         candidates.append({"address": raw, "evidence": re.sub(r"\\s+", " ", context)[:220], "score": score})
     return sorted(candidates, key=lambda x: -x["score"])[:5]
 
+def extract_program(raw_text):
+    """Conservative extraction of clearly labelled organizer schedule rows."""
+    lines = [re.sub(r"\\s+", " ", s).strip() for s in raw_text.splitlines()]
+    lines = [s for s in lines if s]
+    labels = (
+        (r"Anwesenheitskontrolle|contr[oô]le des pr[eé]sences", "Contrôle des présences"),
+        (r"Start zur? 1\\. Runde|Beginn der 1\\. Runde|premi[eè]re ronde", "Première ronde"),
+        (r"Mittagspause|pause de midi", "Pause de midi"),
+        (r"Rangverk[uü]ndigung|Siegerehrung|remise des prix", "Remise des prix"),
+    )
+    result = []
+    for line in lines:
+        time_match = re.search(r"\\b([01]?\\d|2[0-3])[:.]([0-5]\\d)\\s*(?:bis|[-–])?\\s*(?:([01]?\\d|2[0-3])[:.]([0-5]\\d))?", line, re.I)
+        if not time_match:
+            continue
+        for pattern, label in labels:
+            if re.search(pattern, line, re.I):
+                start = f"{int(time_match.group(1)):02d}h{time_match.group(2)}"
+                finish = (f"–{int(time_match.group(3)):02d}h{time_match.group(4)}"
+                          if time_match.group(3) else "")
+                result.append(f"{start}{finish} {label}")
+                break
+    return "; ".join(dict.fromkeys(result)) if any("Première ronde" in s for s in result) else None
+
 def inspect_known_page(event):
     """Inspect known organizer announcements too, including first-page PDF attachments."""
     from urllib.parse import urljoin, urlsplit
@@ -328,6 +352,12 @@ def inspect_known_page(event):
     parser = PageText()
     parser.feed(raw)
     text = re.sub(r"\\s+", " ", " ".join(parser.parts))
+    if not event.get("time"):
+        program = extract_program("\\n".join(parser.parts))
+        if program:
+            event["time"] = program
+            event["timeSource"] = url
+            event["timeVerified"] = True
     candidates = extract_address_candidates(text, event.get("city", ""))
     # Read PDFs linked by this exact event page, prioritizing invitations and rules.
     pdfs = re.findall(r"""href=["']([^"']+\\.pdf(?:\\?[^"']*)?)["']""", raw, re.I)
@@ -414,7 +444,7 @@ def main():
         if event.get("address") and event.get("addressVerified"):
             event.setdefault("addressSource", event.get("url") or event.get("source"))
             event.setdefault("addressSourceLocation", "Annonce du tournoi ; passage exact non repéré")
-    known = sorted([e for e in events if e.get("url") and not e.get("addressVerified")],
+    known = sorted([e for e in events if e.get("url") and (not e.get("addressVerified") or not e.get("time"))],
                    key=lambda e: (0 if "grand prix de payerne" in e.get("title", "").lower() else 1,
                                   e.get("lastAddressScan", ""), e.get("date", "")))[:8]
     for event in known:
