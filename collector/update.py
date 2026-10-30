@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Extraction prudente des annonces de tournois juniors de Swiss Chess."""
-from datetime import date
+from datetime import date, datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 import json
@@ -245,7 +245,7 @@ def enrich_candidates(events):
     batch = sorted(unresolved, key=lambda e: (e.get("lastCandidateSearch", ""), e.get("date", "")))[:12]
     for event in batch:
         found = discover_candidates(event)
-        event["lastCandidateSearch"] = date.today().isoformat()
+        event["lastCandidateSearch"] = datetime.now(timezone.utc).isoformat()
         event["officialCandidates"] = found
         for candidate in found:
             verified = inspect_candidate(event, candidate["url"])
