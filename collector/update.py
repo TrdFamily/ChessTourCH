@@ -162,21 +162,15 @@ def search_bing(query):
             for x in root.findall(".//item")]
 
 def search_duckduckgo(query):
-    """Second discovery provider: decode outbound links, never trust snippets as evidence."""
-    from urllib.parse import parse_qs, urlsplit, unquote
+    """Decode DuckDuckGo's outbound result links."""
     req = urllib.request.Request(
         "https://html.duckduckgo.com/html/?q=" + urllib.parse.quote(query),
         headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=10) as response:
+    with urllib.request.urlopen(req, timeout=8) as response:
         html = response.read(300000).decode("utf-8", "replace")
     links = re.findall(r'uddg=([^& ]+)', html)
-    links = [urllib.parse.unquote(html_unescape(x)) for x in links]
-    for link in links:
-        link = html_unescape(link)
-        if "duckduckgo.com/l/" in link:
-            link = parse_qs(urlsplit(link).query).get("uddg", [""])[0]
-        result.append((unquote(link), ""))
-    return result
+    return [(urllib.parse.unquote(html_unescape(x)), "") for x in links]
+
 
 def html_unescape(value):
     from html import unescape
