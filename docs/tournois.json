@@ -737,7 +737,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:17:14.050536+00:00",
+    "officialCandidates": []
   },
   {
     "id": "multi-2026-11-30-bad-ragaz-seniorenturnier",
@@ -758,7 +760,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Fiche du tournoi à identifier sur la page de l'organisateur",
     "organizerUrl": "https://mychess.events/event-organizer/schweizer-schach-senioren/",
-    "dataQuality": "organizer_only"
+    "dataQuality": "organizer_only",
+    "lastCandidateSearch": "2026-10-30T11:17:14.711027+00:00",
+    "officialCandidates": []
   },
   {
     "id": "multi-2026-12-02-z-richsee-rapidturnier-2026",
@@ -779,7 +783,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:17:15.447635+00:00",
+    "officialCandidates": []
   },
   {
     "id": "multi-2026-12-05-biel-2-freestyle-rapidturnier",
@@ -800,7 +806,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:17:16.021349+00:00",
+    "officialCandidates": []
   },
   {
     "id": "multi-2026-12-05-9-soorser-blitzmeisterschaft",
@@ -821,7 +829,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:17:16.940477+00:00",
+    "officialCandidates": []
   },
   {
     "id": "multi-2026-12-05-schaffhausen-2days-open",
@@ -843,7 +853,9 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "organizer_only",
-    "organizerUrl": "https://www.swisschesstour.com/"
+    "organizerUrl": "https://www.swisschesstour.com/",
+    "lastCandidateSearch": "2026-10-30T11:17:17.623435+00:00",
+    "officialCandidates": []
   },
   {
     "id": "multi-2026-12-06-schweizer-rapidmeisterschaft-u8",
@@ -864,7 +876,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:17:18.267680+00:00",
+    "officialCandidates": []
   },
   {
     "id": "multi-2026-12-07-rapidschach-schachclub-z-rich-h-ngg",
@@ -885,7 +899,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:17:18.997393+00:00",
+    "officialCandidates": []
   },
   {
     "id": "multi-2026-12-26-50-zuercher-weihnachtsopen",
@@ -928,7 +944,9 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "organizer_only",
-    "organizerUrl": "https://www.swisschesstour.com/"
+    "organizerUrl": "https://www.swisschesstour.com/",
+    "lastCandidateSearch": "2026-10-30T11:17:19.714195+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-01-01-29-hotel-meielisalp-open",
@@ -949,7 +967,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:17:20.433881+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-01-06-open-international-d-echecs-de-neuchatel-u200",
@@ -970,7 +990,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:17:21.180037+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-01-08-schaffhausen-new-year-chess-open-2027",
@@ -1015,7 +1037,9 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "needs_official_page",
+    "lastCandidateSearch": "2026-10-30T11:17:21.849835+00:00",
+    "officialCandidates": []
   },
   {
     "id": "calendar-2027-2027-01-15-3-qualiturnier-2027",
