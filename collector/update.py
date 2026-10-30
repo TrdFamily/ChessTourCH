@@ -4,6 +4,7 @@ from datetime import date, datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 import json
+import os
 import re
 import urllib.request
 
@@ -177,6 +178,24 @@ def html_unescape(value):
     from html import unescape
     return unescape(value)
 
+def search_google(query):
+    """Google Programmable Search JSON API, only when credentials are configured.
+
+    Never scrape Google HTML or treat AI snippets as verified event facts.
+    """
+    key = os.environ.get("GOOGLE_SEARCH_API_KEY")
+    engine = os.environ.get("GOOGLE_SEARCH_ENGINE_ID")
+    if not key or not engine:
+        return []
+    url = "https://www.googleapis.com/customsearch/v1?" + urllib.parse.urlencode(
+        {"key": key, "cx": engine, "q": query, "num": 8})
+    req = urllib.request.Request(url, headers={"User-Agent": "ChessTourCH/1.0"})
+    with urllib.request.urlopen(req, timeout=12) as response:
+        payload = json.loads(response.read(250000))
+    return [(item.get("link", ""), item.get("title", ""))
+            for item in payload.get("items", []) if item.get("link")]
+
+
 def discover_candidates(event):
     """Search original-language names across two providers and rank potential organizers."""
     title = re.sub(r"\s+", " ", event["title"]).strip()
@@ -190,7 +209,7 @@ def discover_candidates(event):
     base = keywords(title)
     found = {}
     for query in queries:
-        for provider in (search_bing, search_duckduckgo):
+        for provider in (search_google, search_bing, search_duckduckgo):
             try:
                 results = provider(query)
             except (OSError, ValueError, ET.ParseError):
@@ -245,6 +264,24 @@ class PageText(HTMLParser):
             if self.href and re.search(r"inscri|anmeld|registr|teilnehm", data, re.I):
                 self.links.append(self.href)
 
+def extract_practical_details(event, text, url):
+    """Extract only explicitly labelled information from a matched edition."""
+    details = {}
+    if not event.get("time"):
+        program = extract_program(text)
+        if program:
+            details.update(time=program, timeSource=url, timeVerified=True)
+    if event.get("adultPrice") is None and event.get("juniorPrice") is None:
+        fee = re.search(
+            r"(?:Startgeld|Teilnahmegebühr|Frais d.inscription|Tarif d.inscription|"
+            r"Inscription|Einsatz)\\s*[:–-]?\\s*(?:CHF|SFr\\.?|Fr\\.?)\\s*(\\d{1,3})(?!\\d)",
+            text, re.I)
+        if fee:
+            details["feeCandidate"] = "CHF " + fee.group(1) + " (catégorie à vérifier)"
+            details["feeSource"] = url
+    return details
+
+
 def inspect_candidate(event, url):
     """Only promote a result if the actual page corroborates the edition and title."""
     from urllib.parse import urljoin, urlsplit
@@ -284,10 +321,7 @@ def inspect_candidate(event, url):
         if link.startswith("mailto:"):
             result["registrationUrl"] = link
             break
-    # Extract only an explicitly labelled single admission fee, with currency.
-    fee = re.search(r"(?:Startgeld|Teilnahmegebühr|Inscription|Frais d.inscription)\s*[:–-]?\s*(?:CHF|Fr\.?|SFr\.?)\s*(\d{1,3})(?!\d)", text, re.I)
-    if fee:
-        result["feeCandidate"] = "CHF " + fee.group(1) + " (catégorie à confirmer)"
+    result.update(extract_practical_details(event, "\\n".join(parser.parts), url))
     return result
 
 ADDRESS_RE = re.compile(
@@ -352,12 +386,9 @@ def inspect_known_page(event):
     parser = PageText()
     parser.feed(raw)
     text = re.sub(r"\\s+", " ", " ".join(parser.parts))
-    if not event.get("time"):
-        program = extract_program("\n".join(parser.parts))
-        if program:
-            event["time"] = program
-            event["timeSource"] = url
-            event["timeVerified"] = True
+    for key, value in extract_practical_details(event, "\n".join(parser.parts), url).items():
+        if not event.get(key):
+            event[key] = value
     candidates = extract_address_candidates(text, event.get("city", ""))
     # Read PDFs linked by this exact event page, prioritizing invitations and rules.
     pdfs = re.findall(r"""href=["']([^"']+\\.pdf(?:\\?[^"']*)?)["']""", raw, re.I)
@@ -373,12 +404,9 @@ def inspect_known_page(event):
                 pdf = response.read(3000000)
             reader = PdfReader(BytesIO(pdf))
             first_page = (reader.pages[0].extract_text() or "") if reader.pages else ""
-            if not event.get("time"):
-                pdf_program = extract_program(first_page)
-                if pdf_program:
-                    event["time"] = pdf_program
-                    event["timeSource"] = pdf_url + "#page=1"
-                    event["timeVerified"] = True
+            for key, value in extract_practical_details(event, first_page, pdf_url + "#page=1").items():
+                if not event.get(key):
+                    event[key] = value
             for candidate in extract_address_candidates(first_page, event.get("city", "")):
                 candidate["source"] = pdf_url + "#page=1"
                 candidate["score"] += 2
