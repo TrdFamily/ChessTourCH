@@ -373,7 +373,13 @@ def inspect_known_page(event):
                 pdf = response.read(3000000)
             reader = PdfReader(BytesIO(pdf))
             first_page = (reader.pages[0].extract_text() or "") if reader.pages else ""
-            if not event.get("time"):\n                pdf_program = extract_program(first_page)\n                if pdf_program:\n                    event["time"] = pdf_program\n                    event["timeSource"] = pdf_url + "#page=1"\n                    event["timeVerified"] = True\n            for candidate in extract_address_candidates(first_page, event.get("city", "")):
+            if not event.get("time"):
+                pdf_program = extract_program(first_page)
+                if pdf_program:
+                    event["time"] = pdf_program
+                    event["timeSource"] = pdf_url + "#page=1"
+                    event["timeVerified"] = True
+            for candidate in extract_address_candidates(first_page, event.get("city", "")):
                 candidate["source"] = pdf_url + "#page=1"
                 candidate["score"] += 2
                 candidates.append(candidate)
