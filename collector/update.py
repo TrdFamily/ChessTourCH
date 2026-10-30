@@ -178,6 +178,23 @@ def html_unescape(value):
     from html import unescape
     return unescape(value)
 
+def search_brave(query):
+    """Brave Search API: titles and URLs are leads, never verified facts."""
+    key = os.environ.get("BRAVE_SEARCH_API_KEY")
+    if not key:
+        return []
+    endpoint = "https://api.search.brave.com/res/v1/web/search?" + urllib.parse.urlencode(
+        {"q": query, "count": 10, "country": "ch", "search_lang": "fr"})
+    req = urllib.request.Request(endpoint, headers={
+        "Accept": "application/json",
+        "X-Subscription-Token": key,
+        "User-Agent": "ChessTourCH/1.0"})
+    with urllib.request.urlopen(req, timeout=15) as response:
+        payload = json.loads(response.read(500000))
+    return [(item.get("url", ""), item.get("title", ""))
+            for item in payload.get("web", {}).get("results", []) if item.get("url")]
+
+
 def search_google(query):
     """Google Programmable Search JSON API, only when credentials are configured.
 
@@ -209,7 +226,7 @@ def discover_candidates(event):
     base = keywords(title)
     found = {}
     for query in queries:
-        for provider in (search_google, search_bing, search_duckduckgo):
+        for provider in (search_brave, search_google, search_bing, search_duckduckgo):
             try:
                 results = provider(query)
             except (OSError, ValueError, ET.ParseError):
