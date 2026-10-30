@@ -219,14 +219,13 @@ def discover_candidates(event):
     year = event["date"][:4]
     city = (event.get("city") or "").strip()
     queries = [
-        f'"{title}" {year}',
-        f'{title} {year} {city} anmeldung inscription',
-        f'{title} {year} schach échecs torneo'
+        f'"{title}" {year} {city}',
+        f'{title} {year} inscription anmeldung'
     ]
     base = keywords(title)
     found = {}
     for query in queries:
-        for provider in (search_brave, search_google, search_bing, search_duckduckgo):
+        for provider in (search_bing, search_duckduckgo):
             try:
                 results = provider(query)
             except (OSError, ValueError, ET.ParseError):
@@ -458,7 +457,7 @@ def enrich_candidates(events):
                   or not e.get("address") or (e.get("adultPrice") is None
                   and e.get("juniorPrice") is None)]
     batch = sorted(incomplete, key=lambda e: (e.get("lastDeepResearch", ""),
-                                                e.get("date", "")))[:14]
+                                                e.get("date", "")))[:8]
     for event in batch:
         event["lastDeepResearch"] = now
         try:
