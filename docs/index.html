@@ -68,6 +68,11 @@ function calendarLink(e){
  if(times)params.set('ctz','Europe/Zurich');
  return 'https://calendar.google.com/calendar/render?'+params.toString();
 }
+function googleEventSearch(e){
+ const year=(e.date||'').slice(0,4);
+ const q=[e.title,year,e.city,'tournoi échecs inscription horaires lieu'].filter(Boolean).join(' ');
+ return 'https://www.google.com/search?q='+encodeURIComponent(q);
+}
 function detail(e){
  const link=bestLink(e),verified=e.verificationStatus==='double_checked';
  const fact=(label,value,wide=false)=>'<div class="detail-fact'+(wide?' wide':'')+'"><span class="fact-label">'+label+'</span><span class="fact-value">'+safe(value)+'</span></div>';
@@ -79,6 +84,7 @@ function detail(e){
  let actions='<a class="main-action" target="_blank" rel="noopener" href="'+safe(calendarLink(e))+'">📅 Ajouter à mon calendrier</a>';
  if(link)actions+='<a target="_blank" rel="noopener" href="'+safe(link)+'">'+(e.url?'↗ Annonce de l’organisateur':e.organizerUrl?'↗ Site de l’organisateur':'↗ Source du tournoi')+'</a>';
  if(e.registrationUrl&&e.registrationUrl!==link&&/^https?:\/\//i.test(e.registrationUrl))actions+='<a target="_blank" rel="noopener" href="'+safe(e.registrationUrl)+'">✍️ S’inscrire</a>';
+ actions+='<a target="_blank" rel="noopener" href="'+safe(googleEventSearch(e))+'">🔎 Rechercher ce tournoi sur Google</a>';
  if(e.address)actions+='<a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(e.address+', Suisse')+'">📍 Itinéraire Google Maps</a>';
  const verification=verified?'✓ Informations recoupées avec deux sources':e.verificationStatus==='conflict'?'⚠ Informations contradictoires':'ⓘ Informations non encore recoupées avec deux sources';
  return '<article class="card detail-card"><div class="detail-hero '+(e.category==='Junior'?'junior':'')+'"><span class="eyebrow">♟ '+safe(e.category==='Junior'?'Tournoi jeunes':'Tournoi adultes')+'</span><h2>'+safe(e.title)+'</h2><div class="hero-city">📍 '+safe(e.city||'Suisse')+'</div></div><div class="detail-content"><div class="detail-grid">'+facts+'</div><div class="detail-actions">'+actions+'</div><p class="verification">'+verification+'</p></div></article>';
