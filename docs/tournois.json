@@ -2076,8 +2076,9 @@
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
     "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
-    "lastCandidateSearch": "2026-10-30T11:31:10.499789+00:00",
-    "officialCandidates": []
+    "lastCandidateSearch": "2026-10-30T16:34:05.974464+00:00",
+    "officialCandidates": [],
+    "lastDeepResearch": "2026-10-30T16:34:05.974464+00:00"
   },
   {
     "id": "calendar-2027-2027-06-18-lenzerheide-amateur-2027",
@@ -2105,8 +2106,9 @@
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
     "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
-    "lastCandidateSearch": "2026-10-30T11:31:11.172742+00:00",
-    "officialCandidates": []
+    "lastCandidateSearch": "2026-10-30T16:34:05.974464+00:00",
+    "officialCandidates": [],
+    "lastDeepResearch": "2026-10-30T16:34:05.974464+00:00"
   },
   {
     "id": "calendar-2027-2027-07-02-andeer-spa-open",
@@ -2134,8 +2136,9 @@
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
     "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
-    "lastCandidateSearch": "2026-10-30T11:31:11.938272+00:00",
-    "officialCandidates": []
+    "lastCandidateSearch": "2026-10-30T16:34:05.974464+00:00",
+    "officialCandidates": [],
+    "lastDeepResearch": "2026-10-30T16:34:05.974464+00:00"
   },
   {
     "id": "calendar-2027-2027-07-10-championnats-suisses-individuels-2027",
@@ -2156,10 +2159,11 @@
     "source": "https://swisschess.ch/fr/news/die-sem-2027-findet-erneut-in-disentis-statt",
     "status": "Dates et lieu confirmés par Swiss Chess; règlement, inscription et adresse postale encore à publier",
     "dataQuality": "official_page",
-    "lastAddressScan": "2026-10-30T15:52:50.343157+00:00",
+    "lastAddressScan": "2026-10-30T16:34:07.765562+00:00",
     "firstSourceUrl": "https://swisschess.ch/fr/news/die-sem-2027-findet-erneut-in-disentis-statt",
     "firstSourceType": "organizer",
-    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "lastDeepResearch": "2026-10-30T16:34:05.974464+00:00"
   },
   {
     "id": "calendar-2027-2027-07-10-festival-international-d-echecs-de-bienne-202",
@@ -2181,10 +2185,11 @@
     "status": "Dates 10–23 juillet confirmées par l'organisateur; détails 2027 non publiés",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "official_page",
-    "lastAddressScan": "2026-10-30T15:52:51.155279+00:00",
+    "lastAddressScan": "2026-10-30T16:34:08.312090+00:00",
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
-    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
+    "lastDeepResearch": "2026-10-30T16:34:05.974464+00:00"
   },
   {
     "id": "calendar-2027-2027-08-02-sss-adelboden-2027",
@@ -2211,8 +2216,9 @@
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
     "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
-    "lastCandidateSearch": "2026-10-30T11:31:12.700532+00:00",
-    "officialCandidates": []
+    "lastCandidateSearch": "2026-10-30T16:34:05.974464+00:00",
+    "officialCandidates": [],
+    "lastDeepResearch": "2026-10-30T16:34:05.974464+00:00"
   },
   {
     "id": "calendar-2027-2027-09-06-sss-pontresina-2027",
@@ -2239,8 +2245,9 @@
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
     "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
-    "lastCandidateSearch": "2026-10-30T11:31:13.354276+00:00",
-    "officialCandidates": []
+    "lastCandidateSearch": "2026-10-30T16:34:05.974464+00:00",
+    "officialCandidates": [],
+    "lastDeepResearch": "2026-10-30T16:34:05.974464+00:00"
   },
   {
     "id": "calendar-2027-2027-10-04-sss-gstaad-2027",
@@ -2267,8 +2274,9 @@
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
     "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
-    "lastCandidateSearch": "2026-10-30T11:31:14.067118+00:00",
-    "officialCandidates": []
+    "lastCandidateSearch": "2026-10-30T16:34:05.974464+00:00",
+    "officialCandidates": [],
+    "lastDeepResearch": "2026-10-30T16:34:05.974464+00:00"
   },
   {
     "id": "calendar-2027-2027-12-26-51-zurcher-weihnachtsopen",
