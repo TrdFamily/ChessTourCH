@@ -327,7 +327,7 @@ def inspect_known_page(event):
     text = re.sub(r"\\s+", " ", " ".join(parser.parts))
     candidates = extract_address_candidates(text, event.get("city", ""))
     # Read PDFs linked by this exact event page, prioritizing invitations and rules.
-    pdfs = re.findall(r'href=["\\']([^"\\']+\\.pdf(?:\\?[^"\\']*)?)["\\']', raw, re.I)
+    pdfs = re.findall(r"""href=["']([^"']+\\.pdf(?:\\?[^"']*)?)["']""", raw, re.I)
     for href in pdfs[:3]:
         pdf_url = urljoin(url, html_unescape(href))
         if urlsplit(pdf_url).hostname != urlsplit(url).hostname:
