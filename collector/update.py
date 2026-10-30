@@ -140,7 +140,8 @@ def keywords(s):
 
 BLOCKED_HOSTS = ("chessmates.live", "bing.com", "google.com", "facebook.com",
                  "instagram.com", "chess-results.com", "swisschess.ch",
-                 "lichess.org", "youtube.com", "wikipedia.org")
+                 "lichess.org", "youtube.com", "wikipedia.org", "tripadvisor.com",
+                 "weforum.org", "booking.com", "myswitzerland.com")
 
 def valid_organizer_url(url):
     from urllib.parse import urlsplit
@@ -200,7 +201,9 @@ def discover_candidates(event):
                 from urllib.parse import urlsplit
                 slug = urllib.parse.unquote(urlsplit(url).path.replace("-", " ").replace("_", " "))
                 matched = len(base & keywords(label + " " + slug))
-                if base and matched < min(1, len(base)):
+                if not base or matched < min(2, len(base)):
+                    continue
+                if len(base) == 1 and title.lower() not in (label + " " + slug).lower():
                     continue
                 score = matched * 3
                 if year in (label + url):
