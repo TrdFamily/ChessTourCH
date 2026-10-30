@@ -290,6 +290,68 @@ def inspect_candidate(event, url):
         result["feeCandidate"] = "CHF " + fee.group(1) + " (catégorie à confirmer)"
     return result
 
+ADDRESS_RE = re.compile(
+    r"(?i)(?:rue|route|avenue|av\\.|chemin|place|quai|boulevard|impasse|strasse|straße|weg|gasse|via|piazza)"
+    r"\\s+[A-Za-zÀ-ÿ0-9'’ .-]{3,65}?\\s*,?\\s*\\b\\d{1,3}[a-zA-Z]?\\b"
+    r"(?:\\s*[,;-]?\\s*\\b\\d{4}\\s+[A-Za-zÀ-ÿ .-]{2,40})?")
+POSTAL_RE = re.compile(r"\\b[1-9]\\d{3}\\s+[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ .-]{2,35}")
+
+def extract_address_candidates(text, city=""):
+    """Return evidence, not guesses. Preserve original excerpts for review."""
+    candidates = []
+    for match in ADDRESS_RE.finditer(text):
+        raw = re.sub(r"\\s+", " ", match.group(0)).strip(" ,;.-")
+        context = text[max(0, match.start()-110):min(len(text), match.end()+110)]
+        nearby = bool(re.search(r"(?i)lieu|adresse|salle|halle|local|ort|spielort|turnierort|adresse|venue", context))
+        postcode = bool(POSTAL_RE.search(context))
+        score = int(nearby)*3 + int(postcode)*2 + int(bool(city and city.lower() in context.lower()))
+        candidates.append({"address": raw, "evidence": re.sub(r"\\s+", " ", context)[:220], "score": score})
+    return sorted(candidates, key=lambda x: -x["score"])[:5]
+
+def inspect_known_page(event):
+    """Inspect known organizer announcements too, including first-page PDF attachments."""
+    from urllib.parse import urljoin, urlsplit
+    url = event.get("url")
+    if not url or not url.startswith("https://"):
+        return
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 ChessTourCH/0.6"})
+        with urllib.request.urlopen(req, timeout=12) as response:
+            if "text/html" not in response.headers.get("Content-Type", ""):
+                return
+            raw = response.read(650000).decode("utf-8", "replace")
+    except (OSError, ValueError):
+        return
+    parser = PageText()
+    parser.feed(raw)
+    text = re.sub(r"\\s+", " ", " ".join(parser.parts))
+    candidates = extract_address_candidates(text, event.get("city", ""))
+    # Read PDFs linked by this exact event page, prioritizing invitations and rules.
+    pdfs = re.findall(r'href=["\\']([^"\\']+\\.pdf(?:\\?[^"\\']*)?)["\\']', raw, re.I)
+    for href in pdfs[:3]:
+        pdf_url = urljoin(url, html_unescape(href))
+        if urlsplit(pdf_url).hostname != urlsplit(url).hostname:
+            continue
+        try:
+            from io import BytesIO
+            from pypdf import PdfReader
+            req = urllib.request.Request(pdf_url, headers={"User-Agent": "ChessTourCH/0.6"})
+            with urllib.request.urlopen(req, timeout=12) as response:
+                pdf = response.read(3000000)
+            reader = PdfReader(BytesIO(pdf))
+            first_page = (reader.pages[0].extract_text() or "") if reader.pages else ""
+            for candidate in extract_address_candidates(first_page, event.get("city", "")):
+                candidate["source"] = pdf_url + "#page=1"
+                candidate["score"] += 2
+                candidates.append(candidate)
+        except (OSError, ValueError, ImportError, Exception):
+            continue
+    candidates.sort(key=lambda x: -x["score"])
+    if candidates:
+        event["addressCandidates"] = candidates[:5]
+        # Avoid publishing an unverified address: review the page evidence first.
+    event["lastAddressScan"] = datetime.now(timezone.utc).isoformat()
+
 def enrich_candidates(events):
     # Persist per-event search attempts in JSON, so the workflow does not retry
     # the same first twenty events after each fresh GitHub Actions checkout.
@@ -331,6 +393,10 @@ def main():
             event["url"] = None
         event["dataQuality"] = "official_page" if event.get("url") else ("organizer_only" if event.get("organizerUrl") else "needs_official_page")
     events = enrich_candidates(events)
+    known = sorted([e for e in events if e.get("url") and not e.get("addressVerified")],
+                   key=lambda e: (e.get("lastAddressScan", ""), e.get("date", "")))[:8]
+    for event in known:
+        inspect_known_page(event)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(events, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"{len(events)} annonces juniors collectées")
