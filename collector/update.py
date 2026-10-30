@@ -85,6 +85,8 @@ def parse(html, today=None):
             "venue": "Kirchgemeindehaus Veltheim",
             "address": "Feldstrasse 6, 8400 Winterthur",
             "addressVerified": True,
+            "url": "https://www.sgwinterthur.ch/wjsm2026/",
+            "source": "https://www.sgwinterthur.ch/wjsm2026/",
         },
         "2. Qualiturnier in Lugano": {
             "date": "2026-11-06", "endDate": "2026-11-08",
@@ -105,6 +107,25 @@ def parse(html, today=None):
         "address": None, "addressVerified": False,
         "url": "https://www.rfj.ch/rfj/Actualite/Region/20261019-La-passion-des-echecs-version-jeune-a-Courroux.html"
     })
+    # Annonces de clubs hors liste federale, verifiees sur leurs pages.
+    local_events.extend([
+        {"id":"sc-reti-schoenau-rapid-u12-2026-11-29","title":"3. Schönau Rapidturnier U12",
+         "date":"2026-11-29","endDate":"2026-11-29","city":"Zürich",
+         "venue":"Saal der Baugenossenschaft Schönau Zürich",
+         "address":"Schönauring 78, 8052 Zürich","addressVerified":True,
+         "time":"Contrôle jusqu'à 13h15 ; début 13h30 ; remise des prix vers 17h00",
+         "juniorPrice":10,"adultPrice":None,"category":"Junior","tempo":"Rapid, 8 min + 4 sec/coup",
+         "url":"https://www.screti.ch/index.php/jugendschach/schonau-rapidturnier-u12.html",
+         "source":"https://www.screti.ch/index.php/jugendschach/schonau-rapidturnier-u12.html",
+         "registrationUrl":"mailto:roman@schnelli.com"},
+        {"id":"chessmates-degersheim-herbst-r2-2026-11-04",
+         "title":"Degersheimer Herbstturnier, Runde 2",
+         "date":"2026-11-04","endDate":"2026-11-04","city":"Degersheim",
+         "venue":"Restaurant Rose","address":"Bergstrasse 1, 9113 Degersheim",
+         "addressVerified":True,"time":None,"juniorPrice":None,"adultPrice":None,
+         "category":"Adultes","tempo":"","url":"https://chessmates.live/turniere",
+         "source":"https://chessmates.live/turniere"}
+    ])
     events.extend(event for event in local_events if event["date"] >= today.isoformat())
     return list({event["id"]: event for event in events}.values())
 
