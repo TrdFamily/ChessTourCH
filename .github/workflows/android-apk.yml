@@ -25,6 +25,11 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.10.2'
+      - name: Générer icône Android depuis le logo
+        run: |
+          python -m pip install cairosvg
+          mkdir -p app/src/main/res/drawable-nodpi
+          python -c "import cairosvg; cairosvg.svg2png(url='app/src/main/assets/chesstour-icon.svg',write_to='app/src/main/res/drawable-nodpi/chesstour_icon.png',output_width=512,output_height=512)"
       - name: Construire APK
         run: gradle :app:assembleDebug --no-daemon
       - name: APK telechargeable
