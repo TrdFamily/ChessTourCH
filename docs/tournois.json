@@ -777,9 +777,9 @@
     "endDate": "2026-12-06",
     "city": "Schaffhausen",
     "category": "Adultes",
-    "venue": null,
-    "address": null,
-    "addressVerified": false,
+    "venue": "Hotel Kronenhof",
+    "address": "Kirchhofplatz 7, 8200 Schaffhausen",
+    "addressVerified": true,
     "time": null,
     "adultPrice": null,
     "juniorPrice": null,
@@ -789,7 +789,8 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "organizer_only",
+    "organizerUrl": "https://www.swisschesstour.com/"
   },
   {
     "id": "multi-2026-12-06-schweizer-rapidmeisterschaft-u8",
@@ -873,7 +874,8 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "organizer_only",
+    "organizerUrl": "https://www.swisschesstour.com/"
   },
   {
     "id": "calendar-2027-2027-01-01-29-hotel-meielisalp-open",
@@ -1138,8 +1140,8 @@
     "city": "Burgdorf",
     "category": "Adultes",
     "venue": "Stadthaus Burgdorf",
-    "address": "Kirchbühl 19, 3400 Burgdorf",
-    "addressVerified": true,
+    "address": null,
+    "addressVerified": false,
     "time": null,
     "adultPrice": null,
     "juniorPrice": null,
@@ -1147,7 +1149,7 @@
     "registrationUrl": null,
     "url": null,
     "source": "https://chessmates.live/fr/tournois-echecs",
-    "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
+    "status": "Adresse postale exacte du tournoi non vérifiée; ne pas confondre avec l'adresse de l'hôtel Stadthaus",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page"
   },
@@ -1170,7 +1172,8 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "organizer_only",
+    "organizerUrl": "https://www.swisschesstour.com/"
   },
   {
     "id": "calendar-2027-2027-03-05-basel-spring-open-2027",
@@ -1231,7 +1234,7 @@
     "registrationUrl": null,
     "url": null,
     "source": "https://echecs-payerne.ch/",
-    "status": "Site du club connu, annonce de cette édition non vérifiée",
+    "status": "Dates confirmées par calendrier régional; annonce détaillée 2027 non publiée sur le site du club",
     "organizerUrl": "https://echecs-payerne.ch/",
     "dataQuality": "organizer_only"
   },
@@ -1252,7 +1255,7 @@
     "registrationUrl": null,
     "url": null,
     "source": "https://echecs-payerne.ch/",
-    "status": "Site du club connu, annonce de cette édition non vérifiée",
+    "status": "Dates confirmées par calendrier régional; annonce détaillée 2027 non publiée sur le site du club",
     "organizerUrl": "https://echecs-payerne.ch/",
     "dataQuality": "organizer_only"
   },
@@ -1433,9 +1436,9 @@
     "endDate": "2027-05-02",
     "city": "Serpiano",
     "category": "Adultes",
-    "venue": null,
-    "address": null,
-    "addressVerified": false,
+    "venue": "Hotel Serpiano",
+    "address": "Via Serpiano, 6867 Serpiano",
+    "addressVerified": true,
     "time": null,
     "adultPrice": null,
     "juniorPrice": null,
@@ -1445,7 +1448,8 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "organizer_only",
+    "organizerUrl": "https://www.swisschesstour.com/"
   },
   {
     "id": "calendar-2027-2027-05-02-therwil-youth-team-tournament",
@@ -1496,9 +1500,9 @@
     "endDate": "2027-06-06",
     "city": "San Bernardino",
     "category": "Adultes",
-    "venue": null,
-    "address": null,
-    "addressVerified": false,
+    "venue": "Hotel Lido San Bernardino",
+    "address": "Strada del Lido 2, 6565 San Bernardino",
+    "addressVerified": true,
     "time": null,
     "adultPrice": null,
     "juniorPrice": null,
@@ -1508,7 +1512,8 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "organizer_only",
+    "organizerUrl": "https://www.swisschesstour.com/"
   },
   {
     "id": "calendar-2027-2027-06-14-sss-laax-2027",
@@ -1538,9 +1543,9 @@
     "endDate": "2027-06-20",
     "city": "Lenzerheide",
     "category": "Adultes",
-    "venue": null,
-    "address": null,
-    "addressVerified": false,
+    "venue": "Sunstar Hotel Lenzerheide",
+    "address": "Voa Sporz 8, 7078 Lenzerheide",
+    "addressVerified": true,
     "time": null,
     "adultPrice": null,
     "juniorPrice": null,
@@ -1550,7 +1555,8 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "organizer_only",
+    "organizerUrl": "https://www.swisschesstour.com/"
   },
   {
     "id": "calendar-2027-2027-07-02-andeer-spa-open",
@@ -1559,9 +1565,9 @@
     "endDate": "2027-07-04",
     "city": "Andeer",
     "category": "Adultes",
-    "venue": null,
-    "address": null,
-    "addressVerified": false,
+    "venue": "Hotel Fravi",
+    "address": "Veia Granda 8, 7440 Andeer",
+    "addressVerified": true,
     "time": null,
     "adultPrice": null,
     "juniorPrice": null,
@@ -1571,7 +1577,8 @@
     "source": "https://chessmates.live/fr/tournois-echecs",
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
-    "dataQuality": "needs_official_page"
+    "dataQuality": "organizer_only",
+    "organizerUrl": "https://www.swisschesstour.com/"
   },
   {
     "id": "calendar-2027-2027-07-10-championnats-suisses-individuels-2027",
@@ -1590,7 +1597,7 @@
     "registrationUrl": null,
     "url": "https://swisschess.ch/fr/news/die-sem-2027-findet-erneut-in-disentis-statt",
     "source": "https://swisschess.ch/fr/news/die-sem-2027-findet-erneut-in-disentis-statt",
-    "status": "Date publiée ; détails et inscriptions à vérifier",
+    "status": "Dates et lieu confirmés par Swiss Chess; règlement, inscription et adresse postale encore à publier",
     "dataQuality": "official_page"
   },
   {
