@@ -1465,12 +1465,12 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
-    "lastCandidateSearch": "2026-10-30T16:23:21.497325+00:00",
+    "lastCandidateSearch": "2026-11-01T07:29:36.482155+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
-    "lastDeepResearch": "2026-10-30T16:23:21.497325+00:00"
+    "lastDeepResearch": "2026-11-01T07:29:36.482155+00:00"
   },
   {
     "id": "calendar-2027-2027-02-12-25-stadthaus-open",
@@ -1492,12 +1492,12 @@
     "status": "Adresse postale exacte du tournoi non vérifiée; ne pas confondre avec l'adresse de l'hôtel Stadthaus",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
-    "lastCandidateSearch": "2026-10-30T16:23:21.497325+00:00",
+    "lastCandidateSearch": "2026-11-01T07:29:36.482155+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
-    "lastDeepResearch": "2026-10-30T16:23:21.497325+00:00"
+    "lastDeepResearch": "2026-11-01T07:29:36.482155+00:00"
   },
   {
     "id": "calendar-2027-2027-02-27-lugano-paradiso-memorial-picchi",
@@ -1520,14 +1520,14 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "organizer_only",
     "organizerUrl": "https://www.swisschesstour.com/",
-    "lastCandidateSearch": "2026-10-30T16:23:21.497325+00:00",
+    "lastCandidateSearch": "2026-11-01T07:29:36.482155+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
     "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
-    "lastDeepResearch": "2026-10-30T16:23:21.497325+00:00"
+    "lastDeepResearch": "2026-11-01T07:29:36.482155+00:00"
   },
   {
     "id": "calendar-2027-2027-03-05-basel-spring-open-2027",
@@ -1549,12 +1549,12 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
-    "lastCandidateSearch": "2026-10-30T16:23:21.497325+00:00",
+    "lastCandidateSearch": "2026-11-01T07:29:36.482155+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
-    "lastDeepResearch": "2026-10-30T16:23:21.497325+00:00"
+    "lastDeepResearch": "2026-11-01T07:29:36.482155+00:00"
   },
   {
     "id": "calendar-2027-2027-03-14-sss-mendrisio-2027",
@@ -1576,14 +1576,14 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
-    "lastCandidateSearch": "2026-10-30T16:23:21.497325+00:00",
+    "lastCandidateSearch": "2026-11-01T07:29:36.482155+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
     "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
-    "lastDeepResearch": "2026-10-30T16:23:21.497325+00:00"
+    "lastDeepResearch": "2026-11-01T07:29:36.482155+00:00"
   },
   {
     "id": "calendar-2027-2027-03-19-open-de-la-broye",
@@ -1605,12 +1605,12 @@
     "status": "Dates confirmées par calendrier régional; annonce détaillée 2027 non publiée sur le site du club",
     "organizerUrl": "https://echecs-payerne.ch/",
     "dataQuality": "organizer_only",
-    "lastCandidateSearch": "2026-10-30T16:23:21.497325+00:00",
+    "lastCandidateSearch": "2026-11-01T07:29:36.482155+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://echecs-payerne.ch/",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
-    "lastDeepResearch": "2026-10-30T16:23:21.497325+00:00"
+    "lastDeepResearch": "2026-11-01T07:29:36.482155+00:00"
   },
   {
     "id": "calendar-2027-2027-03-19-open-de-la-broye-junior",
@@ -1632,12 +1632,12 @@
     "status": "Dates confirmées par calendrier régional; annonce détaillée 2027 non publiée sur le site du club",
     "organizerUrl": "https://echecs-payerne.ch/",
     "dataQuality": "organizer_only",
-    "lastCandidateSearch": "2026-10-30T16:23:21.497325+00:00",
+    "lastCandidateSearch": "2026-11-01T07:29:36.482155+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://echecs-payerne.ch/",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
-    "lastDeepResearch": "2026-10-30T16:23:21.497325+00:00"
+    "lastDeepResearch": "2026-11-01T07:29:36.482155+00:00"
   },
   {
     "id": "calendar-2027-2027-03-19-4-qualiturnier-2027",
@@ -1659,12 +1659,12 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
-    "lastCandidateSearch": "2026-10-30T16:23:21.497325+00:00",
+    "lastCandidateSearch": "2026-11-01T07:29:36.482155+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
-    "lastDeepResearch": "2026-10-30T16:23:21.497325+00:00"
+    "lastDeepResearch": "2026-11-01T07:29:36.482155+00:00"
   },
   {
     "id": "calendar-2027-2027-03-24-swiss-young-masters-2027",
