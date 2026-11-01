@@ -1,37 +1,5 @@
 [
   {
-    "id": "ssb-junior-2026-10-31-winterthur-jugendstadtmeisterschaft",
-    "title": "Winterthur: Jugendstadtmeisterschaft",
-    "date": "2026-10-31",
-    "endDate": "2026-10-31",
-    "city": "Winterthur",
-    "category": "Junior",
-    "tempo": "",
-    "lat": null,
-    "lon": null,
-    "adultPrice": null,
-    "juniorPrice": null,
-    "registrationUrl": null,
-    "url": "https://www.sgwinterthur.ch/wjsm2026/",
-    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
-    "source": "https://www.sgwinterthur.ch/wjsm2026/",
-    "status": "Horaires confirmés sur le programme de l'organisateur ; tarif à confirmer",
-    "venue": "Kirchgemeindehaus Veltheim",
-    "address": "Feldstrasse 6, 8400 Winterthur",
-    "addressVerified": true,
-    "dataQuality": "official_page",
-    "firstSourceUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
-    "firstSourceType": "discovery",
-    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
-    "addressSource": "https://www.sgwinterthur.ch/wjsm2026/",
-    "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
-    "time": "09h00–09h45 contrôle des présences ; 10h00 première ronde ; 12h00–13h00 pause ; 16h30 remise des prix",
-    "timeSource": "https://www.sgwinterthur.ch/wjsm2026/",
-    "timeVerified": true,
-    "lastDeepResearch": "2026-10-30T19:15:31.625028+00:00",
-    "lastAddressScan": "2026-10-30T19:15:37.685625+00:00"
-  },
-  {
     "id": "multi-2026-11-02-rapidschach-schachclub-z-rich-h-ngg",
     "title": "Rapidschach Schachclub Zürich Höngg",
     "date": "2026-11-02",
@@ -817,6 +785,31 @@
     "lastDeepResearch": "2026-10-31T13:18:54.125026+00:00"
   },
   {
+    "id": "ssb-junior-2026-11-27-steckborn-jugendschachturnier",
+    "title": "Steckborn Jugendschachturnier",
+    "date": "2026-11-27",
+    "endDate": "2026-11-27",
+    "city": "",
+    "category": "Junior",
+    "tempo": "",
+    "lat": null,
+    "lon": null,
+    "adultPrice": null,
+    "juniorPrice": null,
+    "registrationUrl": null,
+    "url": null,
+    "discoveryUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "source": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "status": "À vérifier auprès de l'organisateur",
+    "dataQuality": "needs_official_page",
+    "lastDeepResearch": "2026-11-01T01:38:36.512462+00:00",
+    "officialCandidates": [],
+    "lastCandidateSearch": "2026-11-01T01:38:36.512462+00:00",
+    "firstSourceUrl": "https://swisschess.ch/fr/jugend/turniere/uebersicht-turniere",
+    "firstSourceType": "discovery",
+    "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré"
+  },
+  {
     "id": "multi-2026-11-28-steckborn-jugendschachturnier",
     "title": "Steckborn Jugendschachturnier",
     "date": "2026-11-28",
@@ -1283,12 +1276,12 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
-    "lastCandidateSearch": "2026-10-30T16:15:51.807883+00:00",
+    "lastCandidateSearch": "2026-11-01T01:38:36.512462+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
-    "lastDeepResearch": "2026-10-30T16:15:51.807883+00:00"
+    "lastDeepResearch": "2026-11-01T01:38:36.512462+00:00"
   },
   {
     "id": "calendar-2027-2027-01-24-international-solving-contest",
@@ -1310,12 +1303,12 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
-    "lastCandidateSearch": "2026-10-30T16:15:51.807883+00:00",
+    "lastCandidateSearch": "2026-11-01T01:38:36.512462+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
-    "lastDeepResearch": "2026-10-30T16:15:51.807883+00:00"
+    "lastDeepResearch": "2026-11-01T01:38:36.512462+00:00"
   },
   {
     "id": "calendar-2027-2027-01-24-jgp3-einsiedeln",
@@ -1337,12 +1330,12 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
-    "lastCandidateSearch": "2026-10-30T16:15:51.807883+00:00",
+    "lastCandidateSearch": "2026-11-01T01:38:36.512462+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
-    "lastDeepResearch": "2026-10-30T16:15:51.807883+00:00"
+    "lastDeepResearch": "2026-11-01T01:38:36.512462+00:00"
   },
   {
     "id": "calendar-2027-2027-01-29-tournoi-blitz-nyon",
@@ -1364,12 +1357,12 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
-    "lastCandidateSearch": "2026-10-30T16:23:21.497325+00:00",
+    "lastCandidateSearch": "2026-11-01T01:38:36.512462+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
-    "lastDeepResearch": "2026-10-30T16:23:21.497325+00:00"
+    "lastDeepResearch": "2026-11-01T01:38:36.512462+00:00"
   },
   {
     "id": "calendar-2027-2027-01-30-echecs-et-mets",
@@ -1391,12 +1384,12 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
-    "lastCandidateSearch": "2026-10-30T16:23:21.497325+00:00",
+    "lastCandidateSearch": "2026-11-01T01:38:36.512462+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
-    "lastDeepResearch": "2026-10-30T16:23:21.497325+00:00"
+    "lastDeepResearch": "2026-11-01T01:38:36.512462+00:00"
   },
   {
     "id": "calendar-2027-2027-01-30-tournoi-nyon",
@@ -1418,12 +1411,12 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
-    "lastCandidateSearch": "2026-10-30T16:23:21.497325+00:00",
+    "lastCandidateSearch": "2026-11-01T01:38:36.512462+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
-    "lastDeepResearch": "2026-10-30T16:23:21.497325+00:00"
+    "lastDeepResearch": "2026-11-01T01:38:36.512462+00:00"
   },
   {
     "id": "calendar-2027-2027-02-07-38e-open-rapide-du-ceg",
@@ -1445,12 +1438,12 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
-    "lastCandidateSearch": "2026-10-30T16:23:21.497325+00:00",
+    "lastCandidateSearch": "2026-11-01T01:38:36.512462+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
-    "lastDeepResearch": "2026-10-30T16:23:21.497325+00:00"
+    "lastDeepResearch": "2026-11-01T01:38:36.512462+00:00"
   },
   {
     "id": "calendar-2027-2027-02-08-sss-zurich-2-2027",
