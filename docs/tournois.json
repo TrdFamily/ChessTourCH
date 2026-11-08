@@ -1681,14 +1681,14 @@
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "organizer_only",
     "organizerUrl": "https://www.swisschesstour.com/",
-    "lastCandidateSearch": "2026-11-06T01:41:21.367991+00:00",
+    "lastCandidateSearch": "2026-11-08T13:22:03.930004+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
     "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
-    "lastDeepResearch": "2026-11-06T01:41:21.367991+00:00"
+    "lastDeepResearch": "2026-11-08T13:22:03.930004+00:00"
   },
   {
     "id": "calendar-2027-2027-05-02-therwil-youth-team-tournament",
@@ -1710,12 +1710,12 @@
     "status": "Répertorié ; page officielle de l'édition et informations pratiques à rechercher",
     "discoveryUrl": "https://chessmates.live/fr/tournois-echecs",
     "dataQuality": "needs_official_page",
-    "lastCandidateSearch": "2026-11-06T01:41:21.367991+00:00",
+    "lastCandidateSearch": "2026-11-08T13:22:03.930004+00:00",
     "officialCandidates": [],
     "firstSourceUrl": "https://chessmates.live/fr/tournois-echecs",
     "firstSourceType": "discovery",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
-    "lastDeepResearch": "2026-11-06T01:41:21.367991+00:00"
+    "lastDeepResearch": "2026-11-08T13:22:03.930004+00:00"
   },
   {
     "id": "calendar-2027-2027-05-06-bundesturnier-2027",
@@ -1742,9 +1742,9 @@
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
     "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
-    "lastCandidateSearch": "2026-11-06T01:41:21.367991+00:00",
+    "lastCandidateSearch": "2026-11-08T13:22:03.930004+00:00",
     "officialCandidates": [],
-    "lastDeepResearch": "2026-11-06T01:41:21.367991+00:00"
+    "lastDeepResearch": "2026-11-08T13:22:03.930004+00:00"
   },
   {
     "id": "calendar-2027-2027-06-05-san-bernardino-2days-open",
@@ -1772,9 +1772,9 @@
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
     "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
-    "lastCandidateSearch": "2026-11-06T01:41:21.367991+00:00",
+    "lastCandidateSearch": "2026-11-08T13:22:03.930004+00:00",
     "officialCandidates": [],
-    "lastDeepResearch": "2026-11-06T01:41:21.367991+00:00"
+    "lastDeepResearch": "2026-11-08T13:22:03.930004+00:00"
   },
   {
     "id": "calendar-2027-2027-06-14-sss-laax-2027",
@@ -1801,9 +1801,9 @@
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
     "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
-    "lastCandidateSearch": "2026-11-06T07:43:46.704182+00:00",
+    "lastCandidateSearch": "2026-11-08T13:22:03.930004+00:00",
     "officialCandidates": [],
-    "lastDeepResearch": "2026-11-06T07:43:46.704182+00:00"
+    "lastDeepResearch": "2026-11-08T13:22:03.930004+00:00"
   },
   {
     "id": "calendar-2027-2027-06-18-lenzerheide-amateur-2027",
@@ -1831,9 +1831,9 @@
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
     "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
-    "lastCandidateSearch": "2026-11-06T07:43:46.704182+00:00",
+    "lastCandidateSearch": "2026-11-08T13:22:03.930004+00:00",
     "officialCandidates": [],
-    "lastDeepResearch": "2026-11-06T07:43:46.704182+00:00"
+    "lastDeepResearch": "2026-11-08T13:22:03.930004+00:00"
   },
   {
     "id": "calendar-2027-2027-07-02-andeer-spa-open",
@@ -1861,9 +1861,9 @@
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
     "addressSource": "https://chessmates.live/fr/tournois-echecs",
     "addressSourceLocation": "Annonce du tournoi ; passage exact non repéré",
-    "lastCandidateSearch": "2026-11-06T07:43:46.704182+00:00",
+    "lastCandidateSearch": "2026-11-08T13:22:03.930004+00:00",
     "officialCandidates": [],
-    "lastDeepResearch": "2026-11-06T07:43:46.704182+00:00"
+    "lastDeepResearch": "2026-11-08T13:22:03.930004+00:00"
   },
   {
     "id": "calendar-2027-2027-07-10-championnats-suisses-individuels-2027",
@@ -1884,11 +1884,11 @@
     "source": "https://swisschess.ch/fr/news/die-sem-2027-findet-erneut-in-disentis-statt",
     "status": "Dates et lieu confirmés par Swiss Chess; règlement, inscription et adresse postale encore à publier",
     "dataQuality": "official_page",
-    "lastAddressScan": "2026-11-06T07:43:48.644036+00:00",
+    "lastAddressScan": "2026-11-08T13:22:07.234106+00:00",
     "firstSourceUrl": "https://swisschess.ch/fr/news/die-sem-2027-findet-erneut-in-disentis-statt",
     "firstSourceType": "organizer",
     "sourceLocation": "Annonce ou entrée du calendrier ; passage exact non repéré",
-    "lastDeepResearch": "2026-11-06T07:43:46.704182+00:00"
+    "lastDeepResearch": "2026-11-08T13:22:03.930004+00:00"
   },
   {
     "id": "calendar-2027-2027-07-10-festival-international-d-echecs-de-bienne-202",
